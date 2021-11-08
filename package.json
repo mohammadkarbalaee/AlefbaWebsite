@@ -1,4 +1,5 @@
 {
+  "homepage": "https://muhammadksht.github.io/AlefbaWebsite",
   "name": "alefba-website",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "prompt-sync": "^4.2.0"
   }
 }

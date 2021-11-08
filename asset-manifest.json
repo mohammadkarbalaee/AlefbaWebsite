@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/AlefbaWebsite/static/js/main.0df6e80b.chunk.js",
-    "main.js.map": "/AlefbaWebsite/static/js/main.0df6e80b.chunk.js.map",
+    "main.css": "/AlefbaWebsite/static/css/main.06081b38.chunk.css",
+    "main.js": "/AlefbaWebsite/static/js/main.d24709e7.chunk.js",
+    "main.js.map": "/AlefbaWebsite/static/js/main.d24709e7.chunk.js.map",
     "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.8022abd0.js",
     "runtime-main.js.map": "/AlefbaWebsite/static/js/runtime-main.8022abd0.js.map",
-    "static/js/2.1cec2e46.chunk.js": "/AlefbaWebsite/static/js/2.1cec2e46.chunk.js",
-    "static/js/2.1cec2e46.chunk.js.map": "/AlefbaWebsite/static/js/2.1cec2e46.chunk.js.map",
+    "static/js/2.055ba1b4.chunk.js": "/AlefbaWebsite/static/js/2.055ba1b4.chunk.js",
+    "static/js/2.055ba1b4.chunk.js.map": "/AlefbaWebsite/static/js/2.055ba1b4.chunk.js.map",
     "static/js/3.d626073f.chunk.js": "/AlefbaWebsite/static/js/3.d626073f.chunk.js",
     "static/js/3.d626073f.chunk.js.map": "/AlefbaWebsite/static/js/3.d626073f.chunk.js.map",
     "index.html": "/AlefbaWebsite/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/AlefbaWebsite/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.1cec2e46.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.1cec2e46.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/AlefbaWebsite/static/media/logo.6ce24c58.svg"
+    "static/css/main.06081b38.chunk.css.map": "/AlefbaWebsite/static/css/main.06081b38.chunk.css.map",
+    "static/js/2.055ba1b4.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.055ba1b4.chunk.js.LICENSE.txt",
+    "static/media/main-pattern.5c8b020a.svg": "/AlefbaWebsite/static/media/main-pattern.5c8b020a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8022abd0.js",
-    "static/js/2.1cec2e46.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.0df6e80b.chunk.js"
+    "static/js/2.055ba1b4.chunk.js",
+    "static/css/main.06081b38.chunk.css",
+    "static/js/main.d24709e7.chunk.js"
   ]
 }

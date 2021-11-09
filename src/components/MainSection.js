@@ -1,9 +1,9 @@
 import {ReactComponent as Pattern} from "../assets/images/main-pattern.svg";
 import {ReactComponent as Papers} from "../assets/images/papers.svg";
 import IconTitle from "./IconTitle";
-import '../stylesheets/main-page.scss';
+import '../stylesheets/main-section.scss';
 
-const MainPage = () => {
+const MainSection = () => {
     return(
         <div>
             <IconTitle/>
@@ -21,4 +21,4 @@ const MainPage = () => {
     )
 }
 
-export default MainPage;
+export default MainSection;

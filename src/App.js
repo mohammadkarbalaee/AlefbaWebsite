@@ -1,10 +1,12 @@
-import MainPage from "./components/MainPage";
+import MainSection from "./components/MainSection";
+import AbilitiesSection from "./components/AbilitiesSection";
 import './App.scss';
 
 function App() {
   return (
     <div className={'alefba'}>
-      <MainPage/>
+      <MainSection/>
+      <AbilitiesSection/>
     </div>
   );
 }

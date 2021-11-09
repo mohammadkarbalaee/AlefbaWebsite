@@ -1,0 +1,34 @@
+@font-face{
+  font-family: iran-yekan;
+  src: url(../assets/fonts/IRANYekan.ttf);
+}
+
+#abilities-title{
+  color: #FF6200;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: iran-yekan, serif;
+}
+
+#abilities{
+  position: relative;
+}
+
+#side{
+  margin-top: 50vh;
+  position: absolute;
+  height:80.55555555555556vh;
+  width:99.5vw;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: end;
+}
+#side-main{
+  height:80.55555555555556vh;
+  width:15vw;
+}

@@ -16,7 +16,7 @@ const MainPage = () => {
             <div id={'papers'}>
                 <Papers id={'paper-image'}/>
             </div>
-            <Pattern/>
+            <Pattern id={'pattern'}/>
         </div>
     )
 }

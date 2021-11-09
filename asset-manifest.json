@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.06081b38.chunk.css",
-    "main.js": "/AlefbaWebsite/static/js/main.d24709e7.chunk.js",
-    "main.js.map": "/AlefbaWebsite/static/js/main.d24709e7.chunk.js.map",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.8022abd0.js",
-    "runtime-main.js.map": "/AlefbaWebsite/static/js/runtime-main.8022abd0.js.map",
-    "static/js/2.055ba1b4.chunk.js": "/AlefbaWebsite/static/js/2.055ba1b4.chunk.js",
-    "static/js/2.055ba1b4.chunk.js.map": "/AlefbaWebsite/static/js/2.055ba1b4.chunk.js.map",
-    "static/js/3.d626073f.chunk.js": "/AlefbaWebsite/static/js/3.d626073f.chunk.js",
-    "static/js/3.d626073f.chunk.js.map": "/AlefbaWebsite/static/js/3.d626073f.chunk.js.map",
+    "main.css": "/AlefbaWebsite/static/css/main.46d7ef77.chunk.css",
+    "main.js": "/AlefbaWebsite/static/js/main.7e28f2f5.chunk.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.6ae1a866.js",
+    "static/js/2.2950d57d.chunk.js": "/AlefbaWebsite/static/js/2.2950d57d.chunk.js",
+    "static/js/3.e52e43ab.chunk.js": "/AlefbaWebsite/static/js/3.e52e43ab.chunk.js",
     "index.html": "/AlefbaWebsite/index.html",
-    "static/css/main.06081b38.chunk.css.map": "/AlefbaWebsite/static/css/main.06081b38.chunk.css.map",
-    "static/js/2.055ba1b4.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.055ba1b4.chunk.js.LICENSE.txt",
-    "static/media/main-pattern.5c8b020a.svg": "/AlefbaWebsite/static/media/main-pattern.5c8b020a.svg"
+    "static/js/2.2950d57d.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.2950d57d.chunk.js.LICENSE.txt",
+    "static/media/main-page.scss": "/AlefbaWebsite/static/media/IRANYekan.b916444e.ttf",
+    "static/media/logo.c5525473.svg": "/AlefbaWebsite/static/media/logo.c5525473.svg",
+    "static/media/main-pattern.5c8b020a.svg": "/AlefbaWebsite/static/media/main-pattern.5c8b020a.svg",
+    "static/media/papers.738453ca.svg": "/AlefbaWebsite/static/media/papers.738453ca.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8022abd0.js",
-    "static/js/2.055ba1b4.chunk.js",
-    "static/css/main.06081b38.chunk.css",
-    "static/js/main.d24709e7.chunk.js"
+    "static/js/runtime-main.6ae1a866.js",
+    "static/js/2.2950d57d.chunk.js",
+    "static/css/main.46d7ef77.chunk.css",
+    "static/js/main.7e28f2f5.chunk.js"
   ]
 }

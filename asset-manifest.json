@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.46d7ef77.chunk.css",
-    "main.js": "/AlefbaWebsite/static/js/main.7e28f2f5.chunk.js",
+    "main.css": "/AlefbaWebsite/static/css/main.d2750804.chunk.css",
+    "main.js": "/AlefbaWebsite/static/js/main.db8c2849.chunk.js",
     "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.6ae1a866.js",
     "static/js/2.2950d57d.chunk.js": "/AlefbaWebsite/static/js/2.2950d57d.chunk.js",
     "static/js/3.e52e43ab.chunk.js": "/AlefbaWebsite/static/js/3.e52e43ab.chunk.js",
@@ -15,7 +15,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ae1a866.js",
     "static/js/2.2950d57d.chunk.js",
-    "static/css/main.46d7ef77.chunk.css",
-    "static/js/main.7e28f2f5.chunk.js"
+    "static/css/main.d2750804.chunk.css",
+    "static/js/main.db8c2849.chunk.js"
   ]
 }

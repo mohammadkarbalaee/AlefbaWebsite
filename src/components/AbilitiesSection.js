@@ -16,10 +16,10 @@ const AbilitiesSection = () => {
             <div id={'side'}>
                 <Side id={'side-main'}/>
             </div>
-            <div style={{height: '5vh'}}/>
+            <div style={{height: '3vw'}}/>
             <div id={'abilities-wrapper'}>
                 <div id={'left'}>
-                    <div style={{height: '15vh'}}/>
+                    <div style={{height: '8vw'}}/>
                     <div className={'ability-group'} id={'left-1'}>
                         <Left1 className={'ability-icon'}/>
                         <p className={'black-text'}>

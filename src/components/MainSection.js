@@ -1,5 +1,5 @@
-import {ReactComponent as Pattern} from "../assets/images/main/main-pattern.svg";
-import {ReactComponent as Papers} from "../assets/images/main/papers.svg";
+import Pattern from "../assets/images/main/main-pattern.png";
+import Papers from "../assets/images/main/papers.png";
 import IconTitle from "./IconTitle";
 import '../stylesheets/main-section.scss';
 
@@ -14,9 +14,9 @@ const MainSection = () => {
                 برای تبدیل عکس به نوشته
             </p>
             <div id={'papers'}>
-                <Papers id={'paper-image'}/>
+                <img src={Papers} id={'paper-image'} alt={''}/>
             </div>
-            <Pattern id={'pattern'}/>
+            <img src={Pattern} id={'pattern'} alt={''}/>
         </div>
     )
 }

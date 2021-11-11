@@ -30,7 +30,7 @@
   color: #FF6200;
   height:5.555555555555555vh;
   width:17.96875vw;
-  margin-top:48.61111111111111vh;
+  margin-top: 25vw;
   margin-right:10.9375vw;
   margin-left:71.875vw;
   position: absolute;
@@ -42,12 +42,14 @@
 
 #pattern{
   position: relative;
+  width: 100%;
+  height: auto;
 }
 
 #white-text{
   color: white;
   position: absolute;
-  margin-top:57vh;
+  margin-top: 30vw;
   margin-right:10.15vw;
   margin-left:70.5vw;
   font-style: normal;
@@ -60,11 +62,13 @@
 
 #papers{
   position: absolute;
-  margin-top:26.38888888888889vh;
+  margin-top: 15vw;
   margin-left:10.9375vw;
+  height:55.55555555555556vh;
+  width:35.15625vw;
 }
 
 #paper-image{
-  height:55.55555555555556vh;
-  width:35.15625vw;
+  height:auto;
+  width:80%;
 }

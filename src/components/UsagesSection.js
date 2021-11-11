@@ -1,7 +1,7 @@
 import '../stylesheets/usages-section.scss';
-import {ReactComponent as InBusinesses} from "../assets/images/usages/businesses.svg";
-import {ReactComponent as InOrganizations} from "../assets/images/usages/organizations.svg";
-import {ReactComponent as InLibraries} from "../assets/images/usages/libraries.svg";
+import BusinessImage from '../assets/images/usages/businesses.png';
+import OrganizationsImage from '../assets/images/usages/organizations.png';
+import LibrariesImage from '../assets/images/usages/libraries.png';
 
 const UsagesSection = () => {
     return(
@@ -9,9 +9,9 @@ const UsagesSection = () => {
             <p id={'usages-title'}>
                 کاربرد های الفبا
             </p>
-            <div style={{height: '15vh'}}/>
+            <div style={{height: '8vw'}}/>
             <div id={'in-businesses'}>
-                <InBusinesses id={'business-image'}/>
+                <img src={BusinessImage} id={'business-image'} alt={''}/>
                 <p className={'orange-text'}>
                     در کسب و کار ها
                 </p>
@@ -20,9 +20,9 @@ const UsagesSection = () => {
                 </p>
             </div>
             <div>
-                <div style={{height: '20vh'}}/>
+                <div style={{height: '10vw'}}/>
                 <div id={'in-organizations'}>
-                    <InOrganizations id={'organization-image'}/>
+                    <img src={OrganizationsImage} id={'organization-image'} alt={''}/>
                     <p className={'orange-text'}>
                         در سازمان ها
                     </p>
@@ -32,9 +32,9 @@ const UsagesSection = () => {
                 </div>
             </div>
             <div>
-                <div style={{height: '70vh'}}/>
+                <div style={{height: '30vw'}}/>
                 <div id={'in-libraries'}>
-                    <InLibraries id={'library-image'}/>
+                    <img src={LibrariesImage} id={'library-image'} alt={''}/>
                     <p className={'orange-text'}>
                         در کتابخانه
                     </p>

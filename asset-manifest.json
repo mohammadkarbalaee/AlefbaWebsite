@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.fc46fd4b.chunk.css",
-    "main.js": "/AlefbaWebsite/static/js/main.1cb4e7e4.chunk.js",
+    "main.css": "/AlefbaWebsite/static/css/main.19ce019d.chunk.css",
+    "main.js": "/AlefbaWebsite/static/js/main.43068040.chunk.js",
     "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.aa5b0591.js",
     "static/js/2.2950d57d.chunk.js": "/AlefbaWebsite/static/js/2.2950d57d.chunk.js",
     "static/js/3.7df4ef18.chunk.js": "/AlefbaWebsite/static/js/3.7df4ef18.chunk.js",
@@ -16,9 +16,9 @@
     "static/media/left-3.64af6b96.svg": "/AlefbaWebsite/static/media/left-3.64af6b96.svg",
     "static/media/libraries.cd45f964.png": "/AlefbaWebsite/static/media/libraries.cd45f964.png",
     "static/media/logo.c5525473.svg": "/AlefbaWebsite/static/media/logo.c5525473.svg",
-    "static/media/main-pattern.5c8b020a.svg": "/AlefbaWebsite/static/media/main-pattern.5c8b020a.svg",
+    "static/media/main-pattern.2e05d587.png": "/AlefbaWebsite/static/media/main-pattern.2e05d587.png",
     "static/media/organizations.abd53ade.png": "/AlefbaWebsite/static/media/organizations.abd53ade.png",
-    "static/media/papers.738453ca.svg": "/AlefbaWebsite/static/media/papers.738453ca.svg",
+    "static/media/papers.379ba068.png": "/AlefbaWebsite/static/media/papers.379ba068.png",
     "static/media/right-1.a4b51951.svg": "/AlefbaWebsite/static/media/right-1.a4b51951.svg",
     "static/media/right-1.def7675d.svg": "/AlefbaWebsite/static/media/right-1.def7675d.svg",
     "static/media/right-2.386bfa39.svg": "/AlefbaWebsite/static/media/right-2.386bfa39.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa5b0591.js",
     "static/js/2.2950d57d.chunk.js",
-    "static/css/main.fc46fd4b.chunk.css",
-    "static/js/main.1cb4e7e4.chunk.js"
+    "static/css/main.19ce019d.chunk.css",
+    "static/js/main.43068040.chunk.js"
   ]
 }

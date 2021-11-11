@@ -2,8 +2,8 @@ import MainSection from "./components/MainSection";
 import AbilitiesSection from "./components/AbilitiesSection";
 import UsagesSection from "./components/UsagesSection";
 import TechnicalUtils from "./components/TechnicalUtils";
-import './App.scss';
 import SampleSection from "./components/SampleSection";
+import './App.scss';
 
 function App() {
   return (
@@ -11,12 +11,13 @@ function App() {
       <MainSection/>
       <div style={{height: '10vw'}}/>
       <AbilitiesSection/>
-      <div style={{height: '40vh'}}/>
+      <div style={{height: '20vw'}}/>
       <UsagesSection/>
-      <div style={{height: '90vh'}}/>
+      <div style={{height: '50vw'}}/>
       <TechnicalUtils/>
-      <div style={{height: '50vh'}}/>
+      <div style={{height: '25vw'}}/>
       <SampleSection/>
+      <div style={{height: '25vw'}}/>
     </div>
   );
 }

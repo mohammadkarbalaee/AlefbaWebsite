@@ -1,7 +1,7 @@
 import '../stylesheets/usages-section.scss';
-import {ReactComponent as InBusinesses} from "../assets/images/usages/1.svg";
-import {ReactComponent as InOrganizations} from "../assets/images/usages/2.svg";
-import {ReactComponent as InLibraries} from "../assets/images/usages/3.svg";
+import {ReactComponent as InBusinesses} from "../assets/images/usages/businesses.svg";
+import {ReactComponent as InOrganizations} from "../assets/images/usages/organizations.svg";
+import {ReactComponent as InLibraries} from "../assets/images/usages/libraries.svg";
 
 const UsagesSection = () => {
     return(

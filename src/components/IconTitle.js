@@ -1,4 +1,4 @@
-import {ReactComponent as Icon} from "../assets/images/logo.svg";
+import {ReactComponent as Icon} from "../assets/images/main/logo.svg";
 import '../stylesheets/main-section.scss';
 
 const IconTitle = () => {

@@ -1,9 +1,4 @@
-@font-face{
-  font-family: iran-yekan;
-  src: url(../assets/fonts/IRANYekan.ttf);
-}
-
-#abilities-title{
+#utils-title{
   color: #FF6200;
   font-style: normal;
   font-weight: normal;
@@ -14,7 +9,22 @@
   font-family: iran-yekan, serif;
 }
 
-#abilities{
+#side-utils{
+  margin-top: 50vh;
+  position: absolute;
+  height:80.55555555555556vh;
+  width:99.5vw;
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  align-items: end;
+}
+#side-utils-main{
+  height:80.55555555555556vh;
+  width:20vw;
+}
+
+#tech-utils{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -22,31 +32,20 @@
   align-items: center;
 }
 
-#side{
-  margin-top: 50vh;
-  position: absolute;
-  height:80.55555555555556vh;
-  width:99.5vw;
+#utils-wrapper{
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   flex-direction: row;
-  align-items: end;
-}
-#side-main{
-  height:85vh;
-  width:18vw;
+  width:65vw;
 }
 
-.ability-group{
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  flex-direction: column;
-  height:33vh;
-  width:20vw;
+.util-icon{
+  height:6vh;
+  width:3vw;
+  margin-right: -5vw;
 }
 
-.black-text{
+.black-util-text{
   direction: rtl;
   color: black;
   background-color: #FF6200;
@@ -56,7 +55,7 @@
   font-size: 1.1vw;
 }
 
-.white-text{
+.white-util-text{
   color: white;
   direction: rtl;
   font-family: iran-yekan, serif;
@@ -65,14 +64,20 @@
   font-size: 1vw;
 }
 
-#abilities-wrapper{
+
+.util-row{
+  width: 15vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
+  align-items: center;
   flex-direction: row;
-  width:55vw;
 }
 
-.ability-icon{
-  height:6.944444444444445vh;
-  width:3.90625vw;
+.util-group{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  height:33vh;
+  width:20vw;
 }

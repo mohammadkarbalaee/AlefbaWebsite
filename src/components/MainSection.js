@@ -1,5 +1,5 @@
-import {ReactComponent as Pattern} from "../assets/images/main-pattern.svg";
-import {ReactComponent as Papers} from "../assets/images/papers.svg";
+import {ReactComponent as Pattern} from "../assets/images/main/main-pattern.svg";
+import {ReactComponent as Papers} from "../assets/images/main/papers.svg";
 import IconTitle from "./IconTitle";
 import '../stylesheets/main-section.scss';
 

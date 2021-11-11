@@ -4,6 +4,7 @@ import UsagesSection from "./components/UsagesSection";
 import TechnicalUtils from "./components/TechnicalUtils";
 import SampleSection from "./components/SampleSection";
 import './App.scss';
+import Footer from "./components/Footer";
 
 function App() {
   return (

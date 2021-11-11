@@ -1,0 +1,67 @@
+a{
+  direction: rtl;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-top-color: white;
+  width: 99.9%;
+  border-width: 0.1px;
+  border-style: solid;
+}
+
+#title-footer{
+  font-size: 1.3vw;
+  padding-right: 1vw;
+  color: white;
+  font-family: iran-yekan, serif;
+}
+
+#icon-footer{
+  height:4.166666666666666vh;
+  width:2.34375vw;
+}
+
+#icon-group{
+  margin-right:13.671875vw;
+  margin-left: 87.109375vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#left{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 31.25vw;
+  height: 8.33vh;
+}
+
+#email-name{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contact-join{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-family: iran-yekan, serif;
+}
+
+p{
+  font-family: iran-yekan, serif;
+  color: white;
+}

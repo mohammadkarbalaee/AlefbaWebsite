@@ -23,7 +23,7 @@ const AbilitiesSection = () => {
                     <div className={'ability-group'} id={'left-1'}>
                         <Left1/>
                         <p className={'black-text'}>
-                            حواندن متون فارسی و انگلیسی
+                            خواندن متون فارسی و انگلیسی
                         </p>
                         <p className={'white-text'}>
                             خواندن نویسه های فارسی، انگلیسی و البته زبان های مشابه مثل عربی و دری،همه در کنار هم در یک تصویر

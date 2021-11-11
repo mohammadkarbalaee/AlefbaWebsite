@@ -1,0 +1,66 @@
+#usages-title{
+  color: #FF6200;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: iran-yekan, serif;
+}
+
+.orange-text{
+  direction: rtl;
+  color: #FF6200;
+  font-family: iran-yekan, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1vw;
+  line-height: 45px;
+}
+
+.white-text{
+  color: white;
+  direction: rtl;
+  font-family: iran-yekan, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 23px;
+}
+
+#in-businesses{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  height:41.66666666666667vh;
+  width:21.09375vw;
+  margin-right:23.4375vw;
+  margin-left:56.25vw;
+}
+
+#in-organizations{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  height:63.888888888888886vh;
+  width:22.265625vw;
+  margin-left:18.75vw;
+  margin-right:60.15625vw;
+}
+
+#in-libraries{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  height:51.388888888888886vh;
+  width:21.09375vw;
+  margin-right:28.125vw;
+  margin-left:50.78125vw;
+}

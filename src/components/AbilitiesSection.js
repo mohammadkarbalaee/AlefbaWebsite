@@ -21,7 +21,7 @@ const AbilitiesSection = () => {
                 <div id={'left'}>
                     <div style={{height: '15vh'}}/>
                     <div className={'ability-group'} id={'left-1'}>
-                        <Left1/>
+                        <Left1 className={'ability-icon'}/>
                         <p className={'black-text'}>
                             خواندن متون فارسی و انگلیسی
                         </p>
@@ -30,7 +30,7 @@ const AbilitiesSection = () => {
                         </p>
                     </div>
                     <div className={'ability-group'} id={'left-2'}>
-                        <Left2/>
+                        <Left2 className={'ability-icon'}/>
                         <p className={'black-text'}>
                             اصلاح تصویر
                         </p>
@@ -39,7 +39,7 @@ const AbilitiesSection = () => {
                         </p>
                     </div>
                     <div className={'ability-group'} id={'left-3'}>
-                        <Left3/>
+                        <Left3 className={'ability-icon'}/>
                         <p className={'black-text'}>
                             خواندن حرکت های حروف
                         </p>
@@ -50,7 +50,7 @@ const AbilitiesSection = () => {
                 </div>
                 <div id={'right'}>
                     <div className={'ability-group'} id={'right-1'}>
-                        <Right1/>
+                        <Right1 className={'ability-icon'}/>
                         <p className={'black-text'}>
                             خواندن قلم های گوناگون
                         </p>
@@ -59,7 +59,7 @@ const AbilitiesSection = () => {
                         </p>
                     </div>
                     <div className={'ability-group'} id={'right-2'}>
-                        <Right2/>
+                        <Right2 className={'ability-icon'}/>
                         <p className={'black-text'}>
                             حفظ ساختار سند
                         </p>
@@ -68,7 +68,7 @@ const AbilitiesSection = () => {
                         </p>
                     </div>
                     <div className={'ability-group'} id={'right-3'}>
-                        <Right3/>
+                        <Right3 className={'ability-icon'}/>
                         <p className={'black-text'}>
                             اطمینان از درستی
                         </p>

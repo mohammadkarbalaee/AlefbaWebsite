@@ -11,7 +11,7 @@ const UsagesSection = () => {
             </p>
             <div style={{height: '15vh'}}/>
             <div id={'in-businesses'}>
-                <InBusinesses/>
+                <InBusinesses id={'business-image'}/>
                 <p className={'orange-text'}>
                     در کسب و کار ها
                 </p>
@@ -22,7 +22,7 @@ const UsagesSection = () => {
             <div>
                 <div style={{height: '20vh'}}/>
                 <div id={'in-organizations'}>
-                    <InOrganizations/>
+                    <InOrganizations id={'organization-image'}/>
                     <p className={'orange-text'}>
                         در سازمان ها
                     </p>
@@ -34,7 +34,7 @@ const UsagesSection = () => {
             <div>
                 <div style={{height: '70vh'}}/>
                 <div id={'in-libraries'}>
-                    <InLibraries/>
+                    <InLibraries id={'library-image'}/>
                     <p className={'orange-text'}>
                         در کتابخانه
                     </p>

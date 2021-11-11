@@ -16,6 +16,10 @@
 
 #abilities{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #side{
@@ -31,4 +35,41 @@
 #side-main{
   height:80.55555555555556vh;
   width:15vw;
+}
+
+.ability-group{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  height:33vh;
+  width:20vw;
+}
+
+.black-text{
+  direction: rtl;
+  color: black;
+  background-color: #FF6200;
+  font-family: iran-yekan, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1vw;
+  line-height: 45px;
+}
+
+.white-text{
+  color: white;
+  direction: rtl;
+  font-family: iran-yekan, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 23px;
+}
+
+#abilities-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width:55vw;
 }

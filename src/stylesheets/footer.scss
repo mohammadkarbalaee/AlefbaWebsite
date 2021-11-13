@@ -1,0 +1,102 @@
+#footer{
+  height:10vw;
+  border-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.7);
+  border-width: 0.5px;
+}
+
+#company{
+  color: white;
+  font-family: iran-yekan, serif;
+  font-size: 0.9vw;
+  height:2.7777777777777777vh;
+  width:15.625vw;
+}
+
+#footer-title{
+  color: white;
+  font-family: iran-yekan, serif;
+  font-size: 1vw;
+}
+
+#contact-text{
+  color: white;
+  font-family: iran-yekan, serif;
+  height:2.7777777777777777vh;
+  width:4.5vw;
+  font-size: 1vw;
+
+}
+
+#join-text{
+  color: white;
+  font-family: iran-yekan, serif;
+  font-size: 1vw;
+  height:2.7777777777777777vh;
+  width:5.078125vw;
+}
+
+#email{
+  color: white;
+  font-family: iran-yekan, serif;
+  font-size: 1vw;
+  height:2.7777777777777777vh;
+  width:9.375vw;
+}
+
+#icon-title-footer{
+  position: absolute;
+  display: flex;
+  margin-top:4.861111111111112vh;
+  margin-right:7.8125vw;
+  margin-left:87.109375vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#icon-footer{
+  height:4vh;
+  width:2vw;
+}
+
+#contact-footer{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: column;
+  height:8.333333333333332vh;
+  width:4.5vw;
+  margin-top:4.861111111111112vh;
+  margin-right:58.59375vw;
+  margin-left:39.0625vw;
+}
+
+#email-footer{
+  position: absolute;
+  display: flex;
+  margin-right:74.21875vw;
+  height:8.333333333333332vh;
+  margin-top:4.861111111111112vh;
+  margin-left:10.546875vw;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+}
+
+#email:hover{
+  color: #FF6200;
+}
+
+#contact-text:hover{
+  color: #FF6200;
+}
+
+#join-text:hover{
+  color: #FF6200;
+}

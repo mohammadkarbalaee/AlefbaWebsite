@@ -21,7 +21,7 @@ const SampleSection = () => {
                             <Dot className={'dot'}/>
                         </div>
                         <p className={'description-sample'}>
-                            جدول درون سند، درست با همان قالب ردیف ها و ستون ها تحلیل میشود.
+                            جدول درون سند، درست با همان قالب ردیف‌ها و ستون‌ها تحلیل می‌شود.
                         </p>
                     </div>
                     <div className={'button'}>
@@ -32,7 +32,7 @@ const SampleSection = () => {
                             <Dot className={'dot'}/>
                         </div>
                         <p className={'description-sample'}>
-                            پس زمینه نوشته ها اگر تمیز هم نباشد، الفبا میتواند آن را بخواند.
+                            پس‌زمینه نوشته اگر تمیز هم نباشد، الفبا می‌تواند آن را بخواند.
                         </p>
                     </div>
                     <div className={'button'}>
@@ -43,7 +43,7 @@ const SampleSection = () => {
                             <Dot className={'dot'}/>
                         </div>
                         <p className={'description-sample'}>
-                            خطوط نوشته در قالب پاراگراف های متن به مخاطب ارائه میشود.
+                            خطوط نوشته در قالب پاراگراف‌های متن به مخاطب ارائه می‌شوند.
                         </p>
                     </div>
                 </div>

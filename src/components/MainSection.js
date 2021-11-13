@@ -8,10 +8,10 @@ const MainSection = () => {
         <div>
             <IconTitle/>
             <p id={'orange-text'}>
-                نويسه خوان الفبا
+                نويسه خوان الفبـا
             </p>
             <p id={'white-text'}>
-                برای تبدیل عکس به نوشته
+                بـرای تبدیـل تصویـر به نوشـته
             </p>
             <div id={'papers'}>
                 <img src={Papers} id={'paper-image'} alt={''}/>

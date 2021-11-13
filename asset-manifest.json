@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.c01cff75.chunk.css",
-    "main.js": "/AlefbaWebsite/static/js/main.004dfd21.chunk.js",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.d94f740c.js",
+    "main.css": "/AlefbaWebsite/static/css/main.f64e6fe4.chunk.css",
+    "main.js": "/AlefbaWebsite/static/js/main.c97068a8.chunk.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.8df8eeef.js",
     "static/js/2.2cb5c795.chunk.js": "/AlefbaWebsite/static/js/2.2cb5c795.chunk.js",
-    "static/js/3.ec4b2fba.chunk.js": "/AlefbaWebsite/static/js/3.ec4b2fba.chunk.js",
+    "static/js/3.80a8a6c9.chunk.js": "/AlefbaWebsite/static/js/3.80a8a6c9.chunk.js",
     "index.html": "/AlefbaWebsite/index.html",
     "static/js/2.2cb5c795.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.2cb5c795.chunk.js.LICENSE.txt",
     "static/media/abilities-section.scss": "/AlefbaWebsite/static/media/IRANYekan.b916444e.ttf",
@@ -30,9 +30,9 @@
     "static/media/side.6df44b76.svg": "/AlefbaWebsite/static/media/side.6df44b76.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d94f740c.js",
+    "static/js/runtime-main.8df8eeef.js",
     "static/js/2.2cb5c795.chunk.js",
-    "static/css/main.c01cff75.chunk.css",
-    "static/js/main.004dfd21.chunk.js"
+    "static/css/main.f64e6fe4.chunk.css",
+    "static/js/main.c97068a8.chunk.js"
   ]
 }

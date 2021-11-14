@@ -1,7 +1,7 @@
 #usages-title{
   color: #FF6200;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.8vw;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@
   font-family: iran-yekan, serif;
 }
 
-.orange-text{
+.orange-text-usages{
   direction: rtl;
   color: #FF6200;
   font-family: iran-yekan, serif;
@@ -18,7 +18,7 @@
   font-size: 1.1vw;
 }
 
-.white-text{
+.white-text-usages{
   color: white;
   direction: rtl;
   font-family: iran-yekan, serif;
@@ -76,4 +76,61 @@
 #library-image{
   height:auto;
   width:80%;
+}
+
+#space-1{
+  height: 8vw
+}
+#space-2{
+   height: 10vw
+}
+#space-3{
+  height: 30vw
+}
+
+@media screen and (max-width: 450px){
+  #usages-title{
+    font-size: 5.3vw;
+  }
+
+  #usages-section{
+    display: flex;
+    overflow-x: auto;
+    max-height: 60vh;
+  }
+
+  #usages-section::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+
+  #in-libraries, #in-organizations, #in-businesses{
+    position: relative;
+    height:52.816901408450704vh;
+    width:75vw;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20vw;
+  }
+
+  #library-image,#business-image,#organization-image{
+    height:32vh;
+    width:55.55555555555556vw;
+  }
+
+  .orange-text-usages{
+    font-size: 4.1vw;
+  }
+
+  .white-text-usages{
+    font-size: 4vw;
+  }
+
+  #space-1,#space-2,#space-3{
+    height: 0;
+  }
+
+  #space-4{
+    height: 10vh;
+  }
 }

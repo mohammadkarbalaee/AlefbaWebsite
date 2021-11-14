@@ -1,13 +1,14 @@
-import MainSection from "./components/MainSection";
-import AbilitiesSection from "./components/AbilitiesSection";
-import UsagesSection from "./components/UsagesSection";
-import TechnicalUtils from "./components/TechnicalUtils";
-import SampleSection from "./components/SampleSection";
 import {Route, Switch} from 'react-router-dom';
-import React, {Suspense} from 'react';
+import React, {lazy, Suspense} from 'react';
 import './App.scss';
-import Footer from "./components/Footer";
 import ProgressIndicator from "./components/progress-indicator";
+
+const MainSection = lazy(() => import("./components/MainSection"));
+const AbilitiesSection = lazy(() => import("./components/AbilitiesSection"));
+const UsagesSection = lazy(() => import("./components/UsagesSection"));
+const TechnicalUtils = lazy(() => import("./components/TechnicalUtils"));
+const SampleSection = lazy(() => import("./components/SampleSection"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
   return (

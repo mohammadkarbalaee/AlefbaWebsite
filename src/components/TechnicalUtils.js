@@ -43,7 +43,7 @@ const TechnicalUtils = () => {
                     </div>
                 </div>
                 <div id={'right-utils'}>
-                    <div style={{height: '15vh'}}/>
+                    <div id={'right-space'}/>
                     <div className={'util-group'} id={'right-1'}>
                         <div className={'util-row'}>
                             <p className={'black-util-text'}>

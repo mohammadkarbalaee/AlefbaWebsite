@@ -1,7 +1,7 @@
 #utils-title{
   color: #FF6200;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.8vw;
   display: flex;
   justify-content: center;
@@ -19,6 +19,7 @@
   flex-direction: row;
   align-items: end;
 }
+
 #side-utils-main{
   height:80.55555555555556vh;
   width:20vw;
@@ -80,4 +81,58 @@
   flex-direction: column;
   height:33vh;
   width:20vw;
+}
+
+#right-space{
+  height: 15vh;
+}
+
+@media screen and (max-width: 450px){
+  #utils-title{
+    font-size: 5.1vw;
+  }
+
+  #side-utils{
+    margin-top: -150vh;
+    height:100vh;
+    width:99.5vw;
+  }
+  #side-utils-main{
+    height:100vh;
+    width:70vw;
+  }
+
+  #utils-wrapper{
+    align-items: center;
+    flex-direction: column;
+    width:70vw;
+  }
+
+  .util-group{
+    margin-top: 10vh;
+    height:26.408450704225352vh;
+    width:77.77777777777779vw;
+  }
+
+  .black-util-text{
+    font-size: 5vw;
+    margin-right: -1vw;
+    margin-bottom: 3vh;
+  }
+
+  .white-util-text{
+    font-size: 4vw;
+  }
+
+  .util-row{
+    width: 50vw;
+  }
+
+  .util-icon{
+    display: none;
+  }
+
+  #right-space{
+    height: 0;
+  }
 }

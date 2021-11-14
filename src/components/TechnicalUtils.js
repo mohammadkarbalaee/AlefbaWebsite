@@ -5,6 +5,11 @@ import {ReactComponent as Left2} from "../assets/images/utils/left-2.svg";
 import {ReactComponent as Right1} from "../assets/images/utils/right-1.svg";
 import {ReactComponent as Right2} from "../assets/images/utils/right-2.svg";
 
+import {ReactComponent as Accuracy} from "../assets/images/utils/accuracy-mobile.svg";
+import {ReactComponent as Parallel} from "../assets/images/utils/parallel-mobile.svg";
+import {ReactComponent as NLP} from "../assets/images/utils/nlp-mobile.svg";
+import {ReactComponent as Deep} from "../assets/images/utils/deep-mobile.svg";
+
 const TechnicalUtils = () => {
     return(
         <div id={'tech-utils'}>
@@ -18,6 +23,7 @@ const TechnicalUtils = () => {
             <div id={'utils-wrapper'}>
                 <div id={'left-utils'}>
                     <div className={'util-group right-to-left'} id={'left-1'}>
+                        <Accuracy id={'accuracy'}/>
                         <div className={'util-row'}>
                             <p className={'black-util-text'}>
                                 دقت و سرعت
@@ -30,6 +36,7 @@ const TechnicalUtils = () => {
                         </p>
                     </div>
                     <div className={'util-group left-to-right'} id={'right-1'}>
+                        <NLP id={'nlp'}/>
                         <div className={'util-row left-to-right-row1'}>
                             <p className={'black-util-text'}>
                                 پردازش زبان طبیعی
@@ -45,6 +52,7 @@ const TechnicalUtils = () => {
                 <div id={'right-utils'}>
                     <div id={'right-space'}/>
                     <div className={'util-group right-to-left'} id={'left-2'}>
+                        <Parallel id={'parallel'}/>
                         <div className={'util-row'}>
                             <p className={'black-util-text'}>
                                 پردازش موازی
@@ -57,6 +65,7 @@ const TechnicalUtils = () => {
                         </p>
                     </div>
                     <div className={'util-group left-to-right'} id={'right-2'}>
+                        <Deep id={'deep'}/>
                         <div className={'util-row left-to-right-row2'}>
                             <p className={'black-util-text'}>
                                 یادگیری عمیق

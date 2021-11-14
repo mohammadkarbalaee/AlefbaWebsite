@@ -87,13 +87,18 @@
   height: 15vh;
 }
 
+#deep,#nlp,#accuracy,#parallel{
+  position: absolute;
+  display: none;
+}
+
 @media screen and (max-width: 450px){
   #utils-title{
     font-size: 5.1vw;
   }
 
   #side-utils{
-    margin-top: -150vh;
+    margin-top: -240vh;
     height:100vh;
     width:99.5vw;
   }
@@ -109,7 +114,7 @@
   }
 
   .util-group{
-    margin-top: 10vh;
+    margin-top: 30vh;
     height:26.408450704225352vh;
     width:77.77777777777779vw;
   }
@@ -149,5 +154,37 @@
 
   .left-to-right-row2{
     width: 32vw;
+  }
+
+  #deep{
+    display: block;
+    height:31.690140845070424vh;
+    width:44.44444444444444vw;
+    margin-left:47vw;
+    margin-top: -25vh;
+  }
+
+  #nlp{
+    display: block;
+    height:29vh;
+    width:40vw;
+    margin-left:50vw;
+    margin-top: -20vh;
+  }
+
+  #accuracy{
+    display: block;
+    height:29vh;
+    width:40vw;
+    margin-right:52vw;
+    margin-top: -20vh;
+  }
+
+  #parallel{
+    display: block;
+    height:29vh;
+    width:40vw;
+    margin-right:52vw;
+    margin-top: -25vh;
   }
 }

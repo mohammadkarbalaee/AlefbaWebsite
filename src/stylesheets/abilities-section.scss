@@ -6,7 +6,7 @@
 #abilities-title{
   color: #FF6200;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.8vw;
   display: flex;
   justify-content: center;
@@ -32,6 +32,7 @@
   flex-direction: row;
   align-items: end;
 }
+
 #side-main{
   height:85vh;
   width:18vw;
@@ -76,4 +77,48 @@
 .ability-icon{
   height:6.944444444444445vh;
   width:3.90625vw;
+}
+
+@media screen and (max-width: 450px){
+  #abilities-title{
+    font-size: 5.3vw;
+  }
+
+  #side{
+    margin-top: -190vh;
+    height:100vh;
+    width:99.5vw;
+  }
+
+  #side-main{
+    height:100vh;
+    width:45vw;
+  }
+
+  #abilities-wrapper{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:55vw;
+  }
+
+  .ability-group{
+    height:31.690140845070424vh;
+    width:72.22222222222221vw;
+  }
+
+  .black-text{
+    font-size: 4.1vw;
+
+  }
+
+  .white-text{
+    font-size: 4vw;
+    width: 70vw;
+  }
+
+  .ability-icon{
+    height:8vh;
+    width:13vw;
+  }
 }

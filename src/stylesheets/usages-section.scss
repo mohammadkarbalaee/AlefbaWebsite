@@ -106,11 +106,13 @@
 
   #in-libraries, #in-organizations, #in-businesses{
     position: relative;
-    height:52.816901408450704vh;
+    height:60vh;
     width:75vw;
     margin-top: 0;
     margin-left: 0;
     margin-right: 20vw;
+    justify-content: start;
+    align-items: end;
   }
 
   #library-image,#business-image,#organization-image{
@@ -119,11 +121,11 @@
   }
 
   .orange-text-usages{
-    font-size: 4.1vw;
+    font-size: 3.8vw;
   }
 
   .white-text-usages{
-    font-size: 4vw;
+    font-size: 3.7vw;
   }
 
   #space-1,#space-2,#space-3{

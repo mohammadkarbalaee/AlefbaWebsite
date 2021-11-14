@@ -135,4 +135,19 @@
   #right-space{
     height: 0;
   }
+
+  .left-to-right{
+    align-items: start;
+    direction: ltr;
+    text-align: left;
+    float: left;
+  }
+
+  .left-to-right-row1{
+    width: 44vw;
+  }
+
+  .left-to-right-row2{
+    width: 32vw;
+  }
 }

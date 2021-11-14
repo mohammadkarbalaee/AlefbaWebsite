@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.9fc9319a.chunk.css",
+    "main.css": "/AlefbaWebsite/static/css/main.c6809c58.chunk.css",
     "main.js": "/AlefbaWebsite/static/js/main.4e15f332.chunk.js",
     "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.c72cd4f4.js",
     "static/js/2.f5e5dd8b.chunk.js": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.c72cd4f4.js",
     "static/js/2.f5e5dd8b.chunk.js",
-    "static/css/main.9fc9319a.chunk.css",
+    "static/css/main.c6809c58.chunk.css",
     "static/js/main.4e15f332.chunk.js"
   ]
 }

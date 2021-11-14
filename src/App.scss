@@ -22,9 +22,33 @@
   height: 20vw;
 }
 
+#utils-sample-space{
+  height: 25vw;
+}
+
+#usage-utils-space{
+  height: 50vw;
+}
+
+#abilities-usage-space{
+  height: 25vw;
+}
+
 @media screen and (max-width: 450px){
   #sample-footer-space{
+    height: 35vh;
+  }
+
+  #utils-sample-space{
     height: 30vh;
+  }
+
+  #usage-utils-space{
+    height: 25vh;
+  }
+
+  #abilities-usage-space{
+    height: 35vh;
   }
 }
 

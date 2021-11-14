@@ -19,11 +19,11 @@ function App() {
                     <MainSection/>
                     <div style={{height: '10vw'}}/>
                     <AbilitiesSection/>
-                    <div style={{height: '20vw'}}/>
+                    <div id={'abilities-usage-space'}/>
                     <UsagesSection/>
-                    <div style={{height: '50vw'}}/>
+                    <div id={'usage-utils-space'}/>
                     <TechnicalUtils/>
-                    <div style={{height: '25vw'}}/>
+                    <div id={'utils-sample-space'}/>
                     <SampleSection/>
                     <div id={'sample-footer-space'}/>
                     <Footer/>

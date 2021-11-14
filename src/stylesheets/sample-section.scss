@@ -61,10 +61,16 @@ p { margin: 0.8vw}
 #sample-title{
   color: #FF6200;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.8vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: iran-yekan, serif;
+}
+
+@media screen  and (max-width: 450px){
+  #sample-title{
+    font-size: 5.3vw;
+  }
 }

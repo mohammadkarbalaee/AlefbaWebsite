@@ -100,3 +100,58 @@ a{
 #join-text:hover{
   color: #FF6200;
 }
+
+@media screen and (max-width: 450px){
+  #contact-footer{
+    display: none;
+    margin: 0;
+    height: 0;
+    width: 0;
+  }
+
+  #footer{
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+
+  #email-footer{
+    position: absolute;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 15vh;
+    margin-right: 5vw;
+  }
+
+  #icon-title-footer{
+    margin-bottom: 37vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #footer-title{
+    font-size: 5vw;
+    padding-right: 1.4vw;
+  }
+
+
+  #icon-footer{
+    height:4vh;
+    width:7vw;
+  }
+
+  #email{
+    font-size: 4vw;
+    height:3.5211267605633805vh;
+    width:35vw;
+  }
+
+  #company{
+    font-size: 3.5vw;
+    height:2.7777777777777777vh;
+    width:60vw;
+  }
+}

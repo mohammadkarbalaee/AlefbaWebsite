@@ -25,7 +25,7 @@ function App() {
                     <TechnicalUtils/>
                     <div style={{height: '25vw'}}/>
                     <SampleSection/>
-                    <div style={{height: '20vw'}}/>
+                    <div id={'sample-footer-space'}/>
                     <Footer/>
                 </Route>
             </Switch>

@@ -17,3 +17,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffff;
 }
+
+#sample-footer-space{
+  height: 20vw;
+}
+
+@media screen and (max-width: 450px){
+  #sample-footer-space{
+    height: 30vh;
+  }
+}

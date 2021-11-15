@@ -34,6 +34,10 @@
   height: 25vw;
 }
 
+#main-abilities-space{
+  height: 20vw;
+}
+
 @media screen and (max-width: 450px){
   #sample-footer-space{
     height: 160vh;
@@ -50,6 +54,11 @@
   #abilities-usage-space{
     height: 35vh;
   }
+
+  #main-abilities-space{
+    height: 40vh;
+  }
+
 }
 
 .alefba{

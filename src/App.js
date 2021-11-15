@@ -17,7 +17,7 @@ function App() {
             <Switch>
                 <Route path={'/AlefbaWebsite'} exact>
                     <MainSection/>
-                    <div style={{height: '10vw'}}/>
+                    <div id={'main-abilities-space'}/>
                     <AbilitiesSection/>
                     <div id={'abilities-usage-space'}/>
                     <UsagesSection/>

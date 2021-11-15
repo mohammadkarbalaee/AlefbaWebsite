@@ -16,7 +16,7 @@ const AbilitiesSection = () => {
             <div id={'side'}>
                 <Side id={'side-main'}/>
             </div>
-            <div style={{height: '3vw'}}/>
+            <div id={'abilities-title-space'}/>
             <div id={'abilities-wrapper'}>
                 <div id={'left'}>
                     <div style={{height: '8vw'}}/>

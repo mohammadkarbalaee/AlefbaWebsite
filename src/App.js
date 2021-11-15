@@ -1,7 +1,7 @@
 import {Route, Switch} from 'react-router-dom';
 import React, {lazy, Suspense} from 'react';
 import './App.scss';
-import ProgressIndicator from "./components/progress-indicator";
+import ProgressIndicator from "./components/ProgressIndicator";
 
 const MainSection = lazy(() => import("./components/MainSection"));
 const AbilitiesSection = lazy(() => import("./components/AbilitiesSection"));

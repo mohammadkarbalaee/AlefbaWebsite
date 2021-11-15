@@ -1,6 +1,7 @@
 import Sample1 from '../assets/images/samples/sample-1.png';
 import Sample2 from '../assets/images/samples/sample-2.png';
 import Sample3 from '../assets/images/samples/sample-3.png';
+import Border from '../assets/images/samples/border.png';
 import Sample1Mobile from '../assets/images/samples/sample-1-mobile.png';
 import Sample2Mobile from '../assets/images/samples/sample-2-mobile.png';
 import Sample3Mobile from '../assets/images/samples/sample-3-mobile.png';
@@ -42,6 +43,9 @@ const SampleSection = () => {
             <div style={{height: '10vw'}}/>
             <div id={'sample-section'}>
                 <img src={whichSample()} id={'image-sample'} alt={''}/>
+                <div  id={'orange-border'}>
+                    <img src={Border} id={'orange-border-main'} alt={''}/>
+                </div>
                 <div style={{width: '20vw'}}/>
                 <div id={'buttons'}>
                     <div className={'button'} onClick={onSample1Click}>

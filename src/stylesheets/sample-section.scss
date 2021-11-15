@@ -89,14 +89,27 @@ p { margin: 0.8vw}
   margin-bottom: 5vh;
 }
 
-#active-orange-title{
-  background-color: #FF6200;
-  color: black;
+#orange-border{
+  position: absolute;
+  margin-bottom: 23vw;
+  margin-right: 7vw;
 }
 
-#active-orange-description{
-  color: #FF6200;
+#orange-border-main{
+  width: 5vw;
 }
+
+@media screen and (min-width: 600px) {
+  #active-orange-title{
+    background-color: #FF6200;
+    color: black;
+  }
+
+  #active-orange-description{
+    color: #FF6200;
+  }
+}
+
 
 @media screen  and (max-width: 600px){
   #sample-title{
@@ -146,7 +159,7 @@ p { margin: 0.8vw}
 
   .description-sample{
     font-size: 4vw;
-    margin-top: -5vh;
+    margin-top: -2vh;
     height:3.5211267605633805vh;
     width:61.111111111111114vw;
   }
@@ -173,5 +186,13 @@ p { margin: 0.8vw}
   .text-left-title{
     text-align: left;
     margin-right: 35vw;
+  }
+
+  .polygon{
+    display: none;
+  }
+
+  #orange-border{
+    display: none;
   }
 }

@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import progressIndicator from "../assets/lotties/progress-indicator.json";
-import '../stylesheets/progress-indicator.css'
+import '../stylesheets/progress-indicator.scss'
 
 function ProgressIndicator(){
     return(

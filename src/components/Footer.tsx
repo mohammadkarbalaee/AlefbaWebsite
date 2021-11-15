@@ -1,5 +1,5 @@
 import '../stylesheets/footer.scss';
-import {ReactComponent as Icon} from "../assets/images/main/logo.svg";
+import {ReactComponent as Icon} from "../assets/images/main/roshan-logo.svg";
 
 const Footer = () => {
     return(
@@ -27,9 +27,6 @@ const Footer = () => {
                 </a>
             </div>
             <div id={'icon-title-footer'}>
-                <p id={'footer-title'}>
-                    الفبا
-                </p>
                 <div>
                     <Icon id={'icon-footer'}/>
                 </div>

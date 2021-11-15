@@ -1,11 +1,41 @@
 import Sample1 from '../assets/images/samples/sample-1.png';
+import Sample2 from '../assets/images/samples/sample-2.png';
+import Sample3 from '../assets/images/samples/sample-3.png';
 import Sample1Mobile from '../assets/images/samples/sample-1-mobile.png';
 import Sample2Mobile from '../assets/images/samples/sample-2-mobile.png';
 import Sample3Mobile from '../assets/images/samples/sample-3-mobile.png';
 import {ReactComponent as Dot} from "../assets/images/samples/dot.svg";
 import '../stylesheets/sample-section.scss';
+import {useState} from "react";
 
 const SampleSection = () => {
+
+    let [activeSample,setActiveSample] = useState(1);
+
+    const onSample1Click = () => {
+        console.log(activeSample);
+        setActiveSample(1);
+    }
+
+    const onSample2Click = () => {
+        console.log(activeSample);
+        setActiveSample(2);
+    }
+
+    const onSample3Click = () => {
+        console.log(activeSample);
+        setActiveSample(3);
+    }
+
+    const whichSample = () => {
+        switch (activeSample){
+            case 1: return Sample1;
+            case 2: return Sample2;
+            case 3: return Sample3;
+            default: return Sample1;
+        }
+    }
+
     return(
         <div className={'sample'}>
             <p id={'sample-title'}>
@@ -13,10 +43,10 @@ const SampleSection = () => {
             </p>
             <div style={{height: '10vw'}}/>
             <div id={'sample-section'}>
-                <img src={Sample1} id={'image-sample'} alt={''}/>
+                <img src={whichSample()} id={'image-sample'} alt={''}/>
                 <div style={{width: '20vw'}}/>
                 <div id={'buttons'}>
-                    <div className={'button'}>
+                    <div className={'button'} onClick={onSample1Click}>
                         <img src={Sample1Mobile} className={'mobile-image float-right'} id={'sample-1-mobile'} alt={''}/>
                         <div className={'sample-row'}>
                             <p className={'white-title-sample'}>
@@ -28,7 +58,7 @@ const SampleSection = () => {
                             جدول درون سند، درست با همان قالب ردیف‌ها و ستون‌ها تحلیل می‌شود.
                         </p>
                     </div>
-                    <div className={'button'}>
+                    <div className={'button'} onClick={onSample2Click}>
                         <img src={Sample2Mobile} className={'mobile-image float-left'} id={'sample-2-mobile'} alt={''}/>
                         <div className={'sample-row'}>
                             <p className={'white-title-sample text-left-title'}>
@@ -40,7 +70,7 @@ const SampleSection = () => {
                             پس‌زمینه نوشته اگر تمیز هم نباشد، الفبا می‌تواند آن را بخواند.
                         </p>
                     </div>
-                    <div className={'button'}>
+                    <div className={'button'} onClick={onSample3Click}>
                         <img src={Sample3Mobile} className={'mobile-image float-right'} id={'sample-3-mobile'} alt={''}/>
                         <div className={'sample-row'}>
                             <p className={'white-title-sample'}>

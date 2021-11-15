@@ -6,7 +6,7 @@ const Footer = () => {
         <div id={'footer'}>
             <div id={'email-footer'}>
                 <p id={'company'}>
-                    شرکت دانش بنیان ((راهکار پزدازش ژرف))
+                    شرکت دانش بنیان ((راهکار پردازش ژرف))
                 </p>
                 <a href={'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=salam@roshan-ai.ir'} target={"_blank"} rel="noreferrer">
                     <p id={'email'}>

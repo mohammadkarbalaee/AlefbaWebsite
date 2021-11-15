@@ -19,26 +19,26 @@
 }
 
 #sample-footer-space{
-  height: 20vw;
+  height: 50vh;
 }
 
 #utils-sample-space{
-  height: 25vw;
+  height: 50vh;
 }
 
 #usage-utils-space{
-  height: 50vw;
+  height: 120vh;
 }
 
 #abilities-usage-space{
-  height: 25vw;
+  height: 50vh;
 }
 
 #main-abilities-space{
-  height: 20vw;
+  height: 35vh;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
   #sample-footer-space{
     height: 160vh;
   }

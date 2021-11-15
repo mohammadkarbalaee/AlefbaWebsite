@@ -13,17 +13,14 @@ const SampleSection = () => {
     let [activeSample,setActiveSample] = useState(1);
 
     const onSample1Click = () => {
-        console.log(activeSample);
         setActiveSample(1);
     }
 
     const onSample2Click = () => {
-        console.log(activeSample);
         setActiveSample(2);
     }
 
     const onSample3Click = () => {
-        console.log(activeSample);
         setActiveSample(3);
     }
 
@@ -49,7 +46,7 @@ const SampleSection = () => {
                     <div className={'button'} onClick={onSample1Click}>
                         <img src={Sample1Mobile} className={'mobile-image float-right'} id={'sample-1-mobile'} alt={''}/>
                         <div className={'sample-row'}>
-                            <p className={'white-title-sample'}>
+                            <p className={'white-title-sample'} id={activeSample === 1 ? 'active-orange-title' : ''}>
                                 حفظ ساختار سند
                             </p>
                             <Dot className={'dot'}/>
@@ -61,7 +58,7 @@ const SampleSection = () => {
                     <div className={'button'} onClick={onSample2Click}>
                         <img src={Sample2Mobile} className={'mobile-image float-left'} id={'sample-2-mobile'} alt={''}/>
                         <div className={'sample-row'}>
-                            <p className={'white-title-sample text-left-title'}>
+                            <p className={'white-title-sample text-left-title'} id={activeSample === 2 ? 'active-orange-title' : ''}>
                                 اصلاح تصویر
                             </p>
                             <Dot className={'dot'}/>
@@ -73,7 +70,7 @@ const SampleSection = () => {
                     <div className={'button'} onClick={onSample3Click}>
                         <img src={Sample3Mobile} className={'mobile-image float-right'} id={'sample-3-mobile'} alt={''}/>
                         <div className={'sample-row'}>
-                            <p className={'white-title-sample'}>
+                            <p className={'white-title-sample'} id={activeSample === 3 ? 'active-orange-title' : ''}>
                                 حفظ ساختار متن
                             </p>
                             <Dot className={'dot'}/>

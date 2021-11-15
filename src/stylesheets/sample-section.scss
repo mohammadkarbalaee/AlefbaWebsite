@@ -69,8 +69,85 @@ p { margin: 0.8vw}
   font-family: iran-yekan, serif;
 }
 
+.mobile-image{
+  display: none;
+  height:40vh;
+  margin-bottom: 5vh;
+}
+
 @media screen  and (max-width: 450px){
   #sample-title{
     font-size: 5.3vw;
+  }
+
+  #image-sample{
+    display: none;
+  }
+
+  .dot{
+    display: none;
+  }
+
+  .mobile-image{
+    display: flex;
+  }
+
+  #sample-section{
+    margin-top: 50vh;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    height:65.14084507042254vh;
+    width: 80vw;
+  }
+
+  .white-title-sample{
+    color: #FF6200;
+    font-size: 5.1vw;
+    height:8.80281690140845vh;
+    width:40vw;
+    text-align: right;
+  }
+
+  #buttons{
+    justify-content: center;
+  }
+
+  .sample{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .description-sample{
+    font-size: 4vw;
+    margin-top: -5vh;
+    height:3.5211267605633805vh;
+    width:61.111111111111114vw;
+  }
+
+  .button{
+    width: 80vw;
+    margin-top: 25vh;
+  }
+
+  .float-right{
+    margin-right: -10vw;
+  }
+
+  .float-left{
+    margin-right: 4vw;
+    margin-top: 2.5vh;
+  }
+
+  .text-left{
+    text-align: left;
+    margin-right: 15vw;
+  }
+
+  .text-left-title{
+    text-align: left;
+    margin-right: 35vw;
   }
 }

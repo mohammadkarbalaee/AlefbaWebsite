@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/AlefbaWebsite/static/css/main.8aacdb26.chunk.css",
-    "main.js": "/AlefbaWebsite/static/js/main.e439fb81.chunk.js",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.0572d8d1.js",
+    "main.js": "/AlefbaWebsite/static/js/main.a4a7bb08.chunk.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.6133be72.js",
     "static/js/2.f5e5dd8b.chunk.js": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js",
-    "static/css/3.95b341eb.chunk.css": "/AlefbaWebsite/static/css/3.95b341eb.chunk.css",
-    "static/js/3.d50c3f6e.chunk.js": "/AlefbaWebsite/static/js/3.d50c3f6e.chunk.js",
-    "static/css/4.30a0776a.chunk.css": "/AlefbaWebsite/static/css/4.30a0776a.chunk.css",
-    "static/js/4.bc34a547.chunk.js": "/AlefbaWebsite/static/js/4.bc34a547.chunk.js",
-    "static/css/5.a39ece94.chunk.css": "/AlefbaWebsite/static/css/5.a39ece94.chunk.css",
-    "static/js/5.adb81fdd.chunk.js": "/AlefbaWebsite/static/js/5.adb81fdd.chunk.js",
+    "static/css/3.a39ece94.chunk.css": "/AlefbaWebsite/static/css/3.a39ece94.chunk.css",
+    "static/js/3.20b4567b.chunk.js": "/AlefbaWebsite/static/js/3.20b4567b.chunk.js",
+    "static/css/4.f2fd1521.chunk.css": "/AlefbaWebsite/static/css/4.f2fd1521.chunk.css",
+    "static/js/4.5ff3674a.chunk.js": "/AlefbaWebsite/static/js/4.5ff3674a.chunk.js",
+    "static/css/5.30a0776a.chunk.css": "/AlefbaWebsite/static/css/5.30a0776a.chunk.css",
+    "static/js/5.94bfd543.chunk.js": "/AlefbaWebsite/static/js/5.94bfd543.chunk.js",
     "static/css/6.c18d5208.chunk.css": "/AlefbaWebsite/static/css/6.c18d5208.chunk.css",
-    "static/js/6.d636bb58.chunk.js": "/AlefbaWebsite/static/js/6.d636bb58.chunk.js",
+    "static/js/6.a5847bcb.chunk.js": "/AlefbaWebsite/static/js/6.a5847bcb.chunk.js",
     "static/css/7.4b2db4cd.chunk.css": "/AlefbaWebsite/static/css/7.4b2db4cd.chunk.css",
-    "static/js/7.a1a012a6.chunk.js": "/AlefbaWebsite/static/js/7.a1a012a6.chunk.js",
+    "static/js/7.6eb9a5eb.chunk.js": "/AlefbaWebsite/static/js/7.6eb9a5eb.chunk.js",
     "static/css/8.05b4dda1.chunk.css": "/AlefbaWebsite/static/css/8.05b4dda1.chunk.css",
-    "static/js/8.446f70ac.chunk.js": "/AlefbaWebsite/static/js/8.446f70ac.chunk.js",
-    "static/js/9.a4d42ed5.chunk.js": "/AlefbaWebsite/static/js/9.a4d42ed5.chunk.js",
+    "static/js/8.dd8d1180.chunk.js": "/AlefbaWebsite/static/js/8.dd8d1180.chunk.js",
+    "static/js/9.5a224e80.chunk.js": "/AlefbaWebsite/static/js/9.5a224e80.chunk.js",
     "index.html": "/AlefbaWebsite/index.html",
     "static/js/2.f5e5dd8b.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js.LICENSE.txt",
     "static/media/abilities-section.scss": "/AlefbaWebsite/static/media/IRANYekan.b916444e.ttf",
@@ -30,7 +30,7 @@
     "static/media/left-2.969e4a76.svg": "/AlefbaWebsite/static/media/left-2.969e4a76.svg",
     "static/media/left-3.64af6b96.svg": "/AlefbaWebsite/static/media/left-3.64af6b96.svg",
     "static/media/libraries.cd45f964.png": "/AlefbaWebsite/static/media/libraries.cd45f964.png",
-    "static/media/logo.svg": "/AlefbaWebsite/static/media/logo.c5525473.svg",
+    "static/media/logo.c5525473.svg": "/AlefbaWebsite/static/media/logo.c5525473.svg",
     "static/media/main-pattern.2e05d587.png": "/AlefbaWebsite/static/media/main-pattern.2e05d587.png",
     "static/media/nlp-mobile.f5cf0024.svg": "/AlefbaWebsite/static/media/nlp-mobile.f5cf0024.svg",
     "static/media/organizations.abd53ade.png": "/AlefbaWebsite/static/media/organizations.abd53ade.png",
@@ -42,6 +42,7 @@
     "static/media/right-2.386bfa39.svg": "/AlefbaWebsite/static/media/right-2.386bfa39.svg",
     "static/media/right-2.93091db4.svg": "/AlefbaWebsite/static/media/right-2.93091db4.svg",
     "static/media/right-3.722faba9.svg": "/AlefbaWebsite/static/media/right-3.722faba9.svg",
+    "static/media/roshan-logo.6a787f7f.svg": "/AlefbaWebsite/static/media/roshan-logo.6a787f7f.svg",
     "static/media/sample-1-mobile.52d5628d.png": "/AlefbaWebsite/static/media/sample-1-mobile.52d5628d.png",
     "static/media/sample-1.019a2c6b.png": "/AlefbaWebsite/static/media/sample-1.019a2c6b.png",
     "static/media/sample-2-mobile.38885d6f.png": "/AlefbaWebsite/static/media/sample-2-mobile.38885d6f.png",
@@ -52,9 +53,9 @@
     "static/media/side.6df44b76.svg": "/AlefbaWebsite/static/media/side.6df44b76.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0572d8d1.js",
+    "static/js/runtime-main.6133be72.js",
     "static/js/2.f5e5dd8b.chunk.js",
     "static/css/main.8aacdb26.chunk.css",
-    "static/js/main.e439fb81.chunk.js"
+    "static/js/main.a4a7bb08.chunk.js"
   ]
 }

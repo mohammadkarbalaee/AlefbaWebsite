@@ -53,6 +53,18 @@ p { margin: 0.8vw}
   margin-right: -1vw;
 }
 
+.no-dot{
+  display: none;
+}
+
+.dot{
+  margin-right: -1vw;
+}
+
+.polygon{
+  margin-right: -2vw;
+}
+
 #image-sample{
   width: 35vw;
   height: 25vw;
@@ -77,11 +89,13 @@ p { margin: 0.8vw}
   margin-bottom: 5vh;
 }
 
-.sample-row {
-  #active-orange-title{
+#active-orange-title{
   background-color: #FF6200;
   color: black;
-  }
+}
+
+#active-orange-description{
+  color: #FF6200;
 }
 
 @media screen  and (max-width: 600px){

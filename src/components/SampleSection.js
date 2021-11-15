@@ -5,6 +5,7 @@ import Sample1Mobile from '../assets/images/samples/sample-1-mobile.png';
 import Sample2Mobile from '../assets/images/samples/sample-2-mobile.png';
 import Sample3Mobile from '../assets/images/samples/sample-3-mobile.png';
 import {ReactComponent as Dot} from "../assets/images/samples/dot.svg";
+import {ReactComponent as Polygon} from "../assets/images/samples/polygon.svg";
 import '../stylesheets/sample-section.scss';
 import {useState} from "react";
 
@@ -49,9 +50,10 @@ const SampleSection = () => {
                             <p className={'white-title-sample'} id={activeSample === 1 ? 'active-orange-title' : ''}>
                                 حفظ ساختار سند
                             </p>
-                            <Dot className={'dot'}/>
+                            <Dot className={activeSample === 1 ? 'no-dot' : 'dot'}/>
+                            <Polygon className={activeSample === 1 ? 'polygon' : 'no-dot'}/>
                         </div>
-                        <p className={'description-sample'}>
+                        <p className={'description-sample'} id={activeSample === 1 ? 'active-orange-description' : ''}>
                             جدول درون سند، درست با همان قالب ردیف‌ها و ستون‌ها تحلیل می‌شود.
                         </p>
                     </div>
@@ -61,9 +63,10 @@ const SampleSection = () => {
                             <p className={'white-title-sample text-left-title'} id={activeSample === 2 ? 'active-orange-title' : ''}>
                                 اصلاح تصویر
                             </p>
-                            <Dot className={'dot'}/>
+                            <Dot className={activeSample === 2 ? 'no-dot' : 'dot'}/>
+                            <Polygon className={activeSample === 2 ? 'polygon' : 'no-dot'}/>
                         </div>
-                        <p className={'description-sample text-left'}>
+                        <p className={'description-sample text-left'} id={activeSample === 2 ? 'active-orange-description' : ''}>
                             پس‌زمینه نوشته اگر تمیز هم نباشد، الفبا می‌تواند آن را بخواند.
                         </p>
                     </div>
@@ -73,9 +76,10 @@ const SampleSection = () => {
                             <p className={'white-title-sample'} id={activeSample === 3 ? 'active-orange-title' : ''}>
                                 حفظ ساختار متن
                             </p>
-                            <Dot className={'dot'}/>
+                            <Dot className={activeSample === 3 ? 'no-dot' : 'dot'}/>
+                            <Polygon className={activeSample === 3 ? 'polygon' : 'no-dot'}/>
                         </div>
-                        <p className={'description-sample'}>
+                        <p className={'description-sample'} id={activeSample === 3 ? 'active-orange-description' : ''}>
                             خطوط نوشته در قالب پاراگراف‌های متن به مخاطب ارائه می‌شوند.
                         </p>
                     </div>

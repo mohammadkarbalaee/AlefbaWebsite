@@ -75,7 +75,7 @@ p { margin: 0.8vw}
   margin-bottom: 5vh;
 }
 
-@media screen  and (max-width: 500px){
+@media screen  and (max-width: 600px){
   #sample-title{
     font-size: 5.3vw;
   }
@@ -90,6 +90,7 @@ p { margin: 0.8vw}
 
   .mobile-image{
     display: flex;
+    width: 85vw;
   }
 
   #sample-section{

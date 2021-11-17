@@ -24,6 +24,25 @@
   width:2.34375vw;
 }
 
+#contact-link{
+  text-decoration: none;
+  color: white;
+  font-size: 6.1vw;
+  width: 40vw;
+  height: 10vh;
+  margin-left: 17vw;
+}
+
+#join-link{
+  text-decoration: none;
+  color: white;
+  margin-top: 5vh;
+  font-size: 6.1vw;
+  width: 40vw;
+  height: 10vh;
+  margin-left: 15vw;
+}
+
 #orange-text{
   color: #FF6200;
   height:5.555555555555555vh;
@@ -56,6 +75,23 @@
   font-family: iran-yekan, serif;
   height:4.861111111111112vh;
   width:21.484375vw;
+}
+
+#main-screen{
+  transition: 0.5s;
+}
+
+#menu-screen{
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 40vh;
+  position: absolute;
 }
 
 #papers{

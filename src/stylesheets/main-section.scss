@@ -3,6 +3,7 @@
   src: url(../assets/fonts/IRANYekan.ttf);
 }
 
+
 #icon-title-group{
   display: flex;
   flex-direction: row;
@@ -14,7 +15,6 @@
 
 #title{
   font-size: 1.3vw;
-  padding-right: 1vw;
   color: white;
   font-family: iran-yekan, serif;
 }
@@ -40,8 +40,8 @@
 
 #pattern{
   position: absolute;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
 }
 
 #white-text{

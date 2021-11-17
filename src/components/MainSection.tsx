@@ -9,20 +9,10 @@ const MainSection = () => {
 
     const [isOpen, setOpen] = useState<boolean>(false);
 
-    let height: number = (window.innerWidth / 50);
+    let height: number = (window.innerWidth / 20);
 
     return(
         <div>
-            <p id={'orange-text'}>
-                نويسه خوان الفبـا
-            </p>
-            <p id={'white-text'}>
-                بـرای تبدیـل تصویـر به نوشـته
-            </p>
-            <div id={'papers'}>
-                <img src={Papers} id={'paper-image'} alt={''}/>
-            </div>
-            <img src={Pattern} id={'pattern'} alt={''}/>
             <div id={'hamburger-icon-group'}>
                 <div id={'hamburger-button'}>
                     <Hamburger
@@ -35,6 +25,15 @@ const MainSection = () => {
                     />
                 </div>
                 <IconTitle/>
+            </div>
+            <p id={'orange-text'}>
+                نويسه خوان الفبـا
+            </p>
+            <p id={'white-text'}>
+                بـرای تبدیـل تصویـر به نوشـته
+            </p>
+            <div id={'papers'}>
+                <img src={Papers} id={'paper-image'} alt={''}/>
             </div>
         </div>
     )

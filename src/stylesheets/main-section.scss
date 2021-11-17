@@ -4,14 +4,12 @@
 }
 
 #icon-title-group{
-  margin-right:13.671875vw;
-  margin-left: 87.109375vw;
-  margin-top: 4.16vh;
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height:4.166666666666666vh;
+  width:5.46875vw;
 }
 
 #title{
@@ -41,7 +39,7 @@
 }
 
 #pattern{
-  position: relative;
+  position: absolute;
   width: 100%;
   height: auto;
 }
@@ -73,21 +71,40 @@
   width:90%;
 }
 
+#hamburger-button{
+  opacity: 0;
+}
+
+#hamburger-icon-group{
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 13vw;
+  margin-top: 4.5vh;
+  position: absolute;
+}
+
 @media screen and (max-width: 600px){
+
+  #hamburger-button{
+    opacity: 1;
+  }
+
+
   #title{
     font-size: 5vw;
     padding-right: 1.5vw;
   }
 
-  #icon-title-group{
-    margin-right:28vw;
-    margin-top:6.161971830985916vh;
-    margin-left:71vw;
-  }
-
   #icon{
     height:5.28169014084507vh;
     width:8.333333333333332vw;
+  }
+
+  #icon-title-group{
+    width:20vw;
   }
 
   #pattern{

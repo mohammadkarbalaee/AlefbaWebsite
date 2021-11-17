@@ -39,9 +39,9 @@
 }
 
 #pattern{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 #white-text{
@@ -110,6 +110,7 @@
   #pattern{
     margin-top: -30vh;
     width: auto;
+    position: relative;
     height: 100%;
   }
 
@@ -139,5 +140,10 @@
 
   #paper-image{
     width:100%;
+  }
+
+  #hamburger-icon-group{
+    width: 85vw;
+    margin-left: 7vw;
   }
 }

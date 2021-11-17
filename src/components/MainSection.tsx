@@ -16,10 +16,10 @@ const MainSection = () => {
     let height: number = (window.innerWidth / 20);
 
     const displayNoneStyle = {
-        display: 'none'
+        opacity: 0,
     }
     const displayBlockStyle = {
-        display: 'block'
+        opacity: 1,
     }
 
     return(
@@ -39,12 +39,16 @@ const MainSection = () => {
                 <IconTitle/>
             </div>
             <div id={'menu-screen'} style={isOpen ? displayBlockStyle : displayNoneStyle}>
-                <p id={'contact-link'}>
-                    تماس با ما
-                </p>
-                <p id={'join-link'}>
-                    همکاری با ما
-                </p>
+                <a href='https://www.roshan-ai.ir/contact-us/'>
+                    <p id={'contact-link'}>
+                        تماس با ما
+                    </p>
+                </a>
+                <a href='https://www.roshan-ai.ir/join-us/'>
+                    <p id={'join-link'}>
+                        همکاری با ما
+                    </p>
+                </a>
             </div>
             <div id={'main-screen'} style={isOpen ? displayNoneStyle : displayBlockStyle}>
                 <p id={'orange-text'}>
@@ -56,7 +60,7 @@ const MainSection = () => {
                 <div id={'papers'}>
                     <img src={Papers} id={'paper-image'} alt={''}/>
                 </div>
-                {/*<img src={Pattern} id={'pattern'} alt={''}/>*/}
+                <img src={Pattern} id={'pattern'} alt={''}/>
             </div>
         </div>
     )

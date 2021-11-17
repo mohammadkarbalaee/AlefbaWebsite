@@ -61,6 +61,7 @@
   position: relative;
   width: 100%;
   height: auto;
+  z-index: 5;
 }
 
 #white-text{
@@ -78,16 +79,18 @@
 }
 
 #main-screen{
-  transition: 0.5s;
+  z-index: 10;
+  transition: 0.6s;
 }
 
 #menu-screen{
-  transition: 0.5s;
+  z-index: 20;
+  transition: 0.6s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 90vh;
+  height: 25vh;
   margin-left: 20vw;
   margin-right: 20vw;
   margin-top: 40vh;
@@ -112,6 +115,7 @@
 }
 
 #hamburger-icon-group{
+  z-index: 100;
   width: 75vw;
   display: flex;
   justify-content: space-between;
@@ -144,7 +148,7 @@
   }
 
   #pattern{
-    margin-top: -30vh;
+    margin-top: -20vh;
     width: auto;
     position: relative;
     height: 100%;

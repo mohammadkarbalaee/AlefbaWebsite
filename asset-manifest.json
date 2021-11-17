@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/AlefbaWebsite/static/css/main.5366f0f7.chunk.css",
+    "main.css": "/AlefbaWebsite/static/css/main.7aee5d25.chunk.css",
     "main.js": "/AlefbaWebsite/static/js/main.7b5e1cf8.chunk.js",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.c712cd2b.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.85f56a97.js",
     "static/js/2.f5e5dd8b.chunk.js": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js",
-    "static/css/3.c73fd61d.chunk.css": "/AlefbaWebsite/static/css/3.c73fd61d.chunk.css",
-    "static/js/3.a27377be.chunk.js": "/AlefbaWebsite/static/js/3.a27377be.chunk.js",
+    "static/css/3.b4a57f23.chunk.css": "/AlefbaWebsite/static/css/3.b4a57f23.chunk.css",
+    "static/js/3.ae85b129.chunk.js": "/AlefbaWebsite/static/js/3.ae85b129.chunk.js",
     "static/css/4.c18d5208.chunk.css": "/AlefbaWebsite/static/css/4.c18d5208.chunk.css",
     "static/js/4.c6d800ee.chunk.js": "/AlefbaWebsite/static/js/4.c6d800ee.chunk.js",
     "static/css/5.a39ece94.chunk.css": "/AlefbaWebsite/static/css/5.a39ece94.chunk.css",
@@ -31,6 +31,7 @@
     "static/media/left-3.64af6b96.svg": "/AlefbaWebsite/static/media/left-3.64af6b96.svg",
     "static/media/libraries.cd45f964.png": "/AlefbaWebsite/static/media/libraries.cd45f964.png",
     "static/media/logo.c5525473.svg": "/AlefbaWebsite/static/media/logo.c5525473.svg",
+    "static/media/main-pattern.2e05d587.png": "/AlefbaWebsite/static/media/main-pattern.2e05d587.png",
     "static/media/nlp-mobile.f5cf0024.svg": "/AlefbaWebsite/static/media/nlp-mobile.f5cf0024.svg",
     "static/media/organizations.abd53ade.png": "/AlefbaWebsite/static/media/organizations.abd53ade.png",
     "static/media/papers.379ba068.png": "/AlefbaWebsite/static/media/papers.379ba068.png",
@@ -52,9 +53,9 @@
     "static/media/side.6df44b76.svg": "/AlefbaWebsite/static/media/side.6df44b76.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c712cd2b.js",
+    "static/js/runtime-main.85f56a97.js",
     "static/js/2.f5e5dd8b.chunk.js",
-    "static/css/main.5366f0f7.chunk.css",
+    "static/css/main.7aee5d25.chunk.css",
     "static/js/main.7b5e1cf8.chunk.js"
   ]
 }

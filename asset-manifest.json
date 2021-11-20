@@ -2,10 +2,10 @@
   "files": {
     "main.css": "/AlefbaWebsite/static/css/main.7aee5d25.chunk.css",
     "main.js": "/AlefbaWebsite/static/js/main.f2dd3b6c.chunk.js",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.aee7cf3a.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.289a84e4.js",
     "static/js/2.f5e5dd8b.chunk.js": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js",
-    "static/css/3.e58bf22b.chunk.css": "/AlefbaWebsite/static/css/3.e58bf22b.chunk.css",
-    "static/js/3.be918e33.chunk.js": "/AlefbaWebsite/static/js/3.be918e33.chunk.js",
+    "static/css/3.d29aea9e.chunk.css": "/AlefbaWebsite/static/css/3.d29aea9e.chunk.css",
+    "static/js/3.4ec1dc73.chunk.js": "/AlefbaWebsite/static/js/3.4ec1dc73.chunk.js",
     "static/css/4.81ef7554.chunk.css": "/AlefbaWebsite/static/css/4.81ef7554.chunk.css",
     "static/js/4.9da723c2.chunk.js": "/AlefbaWebsite/static/js/4.9da723c2.chunk.js",
     "static/css/5.c18d5208.chunk.css": "/AlefbaWebsite/static/css/5.c18d5208.chunk.css",
@@ -53,7 +53,7 @@
     "static/media/side.6df44b76.svg": "/AlefbaWebsite/static/media/side.6df44b76.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aee7cf3a.js",
+    "static/js/runtime-main.289a84e4.js",
     "static/js/2.f5e5dd8b.chunk.js",
     "static/css/main.7aee5d25.chunk.css",
     "static/js/main.f2dd3b6c.chunk.js"

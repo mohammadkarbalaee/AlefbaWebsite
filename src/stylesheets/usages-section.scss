@@ -28,6 +28,7 @@
 }
 
 #in-businesses{
+  transition: 1s ease-in-out;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -45,6 +46,7 @@
 }
 
 #in-organizations{
+  transition: 1s ease-in-out;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -62,6 +64,7 @@
 }
 
 #in-libraries{
+  transition: 1s ease-in-out;
   position: absolute;
   display: flex;
   justify-content: center;

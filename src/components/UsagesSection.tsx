@@ -2,8 +2,25 @@ import '../stylesheets/usages-section.scss';
 import BusinessImage from '../assets/images/usages/businesses.png';
 import OrganizationsImage from '../assets/images/usages/organizations.png';
 import LibrariesImage from '../assets/images/usages/libraries.png';
+import { useInView } from 'react-intersection-observer';
 
 const UsagesSection = () => {
+
+    const observerOptions = {
+        delay: 1000
+    };
+
+    const beforeFade = {
+        opacity: 0
+    };
+    const afterFade = {
+        opacity: 1
+    };
+
+    const [businessesRef,businessesInView] = useInView(observerOptions);
+    const [organizationsRef,organizationsInView] = useInView(observerOptions);
+    const [librariesRef,librariesInView] = useInView(observerOptions);
+
     return(
         <div>
             <p id={'usages-title'}>
@@ -12,7 +29,7 @@ const UsagesSection = () => {
             <div id={'space-4'}/>
             <div id={'usages-section'}>
                 <div id={'space-1'}/>
-                <div id={'in-businesses'}>
+                <div id={'in-businesses'} ref={businessesRef} style={businessesInView? afterFade : beforeFade}>
                     <img src={BusinessImage} id={'business-image'} alt={''}/>
                     <p className={'orange-text-usages'}>
                         در کسب‌و‌کار‌ها
@@ -23,7 +40,7 @@ const UsagesSection = () => {
                 </div>
                 <div>
                     <div id={'space-2'}/>
-                    <div id={'in-organizations'}>
+                    <div id={'in-organizations'} ref={organizationsRef}  style={organizationsInView? afterFade : beforeFade}>
                         <img src={OrganizationsImage} id={'organization-image'} alt={''}/>
                         <p className={'orange-text-usages'}>
                             در سازمان ها
@@ -35,7 +52,7 @@ const UsagesSection = () => {
                 </div>
                 <div>
                     <div id={'space-3'}/>
-                    <div id={'in-libraries'}>
+                    <div id={'in-libraries'} ref={librariesRef}  style={librariesInView? afterFade : beforeFade}>
                         <img src={LibrariesImage} id={'library-image'} alt={''}/>
                         <p className={'orange-text-usages'}>
                             در کتابخانه

@@ -6,8 +6,16 @@ import {ReactComponent as Right3} from "../assets/images/abilities/right-3.svg";
 import {ReactComponent as Left1} from "../assets/images/abilities/left-1.svg";
 import {ReactComponent as Left2} from "../assets/images/abilities/left-2.svg";
 import {ReactComponent as Left3} from "../assets/images/abilities/left-3.svg";
+import { useInView } from 'react-intersection-observer';
 
 const AbilitiesSection = () => {
+    const observerOptions = {
+        threshold: 0.2,
+    };
+    const [sideRef,inView] = useInView(observerOptions);
+
+    // style={inView? {background: 'white'} : {}}
+
     return(
         <div id={'abilities'}>
             <p id={'abilities-title'}>

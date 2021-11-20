@@ -48,13 +48,40 @@
 
 .black-util-text{
   direction: rtl;
-  color: black;
-  background-color: #FF6200;
+  color: #FF6200;
+  background-color: transparent;
   font-family: iran-yekan, serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.1vw;
+  transition: 0.1s ease-in-out;
+  transform: scaleX(1);
+  z-index: 1;
 }
+
+.black-util-text-background{
+  direction: rtl;
+  font-family: iran-yekan, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1vw;
+  color: transparent;
+  transition: 1s ease-in-out;
+  transform: scaleX(1);
+  background-color: #FF6200;
+  transform-origin: right;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title-stack-utils{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
 
 .white-util-text{
   color: white;

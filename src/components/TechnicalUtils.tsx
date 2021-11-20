@@ -9,8 +9,33 @@ import {ReactComponent as Accuracy} from "../assets/images/utils/accuracy-mobile
 import {ReactComponent as Parallel} from "../assets/images/utils/parallel-mobile.svg";
 import {ReactComponent as NLP} from "../assets/images/utils/nlp-mobile.svg";
 import {ReactComponent as Deep} from "../assets/images/utils/deep-mobile.svg";
+import {useInView} from "react-intersection-observer";
 
 const TechnicalUtils = () => {
+
+    const observerOptions = {
+        delay: 1000
+    };
+
+    const [right1Ref,right1InView] = useInView(observerOptions);
+    const [right2Ref,right2InView] = useInView(observerOptions);
+    const [left1Ref,left1InView] = useInView(observerOptions);
+    const [left2Ref,left2InView] = useInView(observerOptions);
+
+    const beforeStyle = {
+        transform: 'scaleX(0)'
+    };
+    const afterStyle = {
+        transform: 'scaleX(1)'
+    };
+
+    const beforeStyleText = {
+        color: '#FF6200'
+    };
+    const afterStyleText = {
+        color: 'black'
+    };
+
     return(
         <div id={'tech-utils'}>
             <p id={'utils-title'}>
@@ -25,9 +50,14 @@ const TechnicalUtils = () => {
                     <div className={'util-group right-to-left'} id={'left-1'}>
                         <Accuracy id={'accuracy'}/>
                         <div className={'util-row'}>
-                            <p className={'black-util-text'}>
-                                دقت و سرعت
-                            </p>
+                            <div className={'title-stack-utils'}>
+                                <p className={'black-util-text'} style={left1InView? afterStyleText : beforeStyleText}>
+                                    دقت و سرعت
+                                </p>
+                                <p className={'black-util-text-background'} ref={left1Ref} style={left1InView? afterStyle : beforeStyle}>
+                                    دقت و سرعت
+                                </p>
+                            </div>
                             <div style={{width: '2vw'}}/>
                             <Left1 className={'util-icon'}/>
                         </div>
@@ -38,9 +68,14 @@ const TechnicalUtils = () => {
                     <div className={'util-group left-to-right'} id={'right-1'}>
                         <NLP id={'nlp'}/>
                         <div className={'util-row left-to-right-row1'}>
-                            <p className={'black-util-text'}>
-                                پردازش زبان طبیعی
-                            </p>
+                            <div className={'title-stack-utils'}>
+                                <p className={'black-util-text'} style={right1InView? afterStyleText : beforeStyleText}>
+                                    پردازش زبان طبیعی
+                                </p>
+                                <p className={'black-util-text-background'} ref={right1Ref} style={right1InView? afterStyle : beforeStyle}>
+                                    پردازش زبان طبیعی
+                                </p>
+                            </div>
                             <div style={{width: '2vw'}}/>
                             <Right1 className={'util-icon'}/>
                         </div>
@@ -54,9 +89,14 @@ const TechnicalUtils = () => {
                     <div className={'util-group right-to-left'} id={'left-2'}>
                         <Parallel id={'parallel'}/>
                         <div className={'util-row'}>
-                            <p className={'black-util-text'}>
-                                پردازش موازی
-                            </p>
+                            <div className={'title-stack-utils'}>
+                                <p className={'black-util-text'} style={left2InView? afterStyleText : beforeStyleText}>
+                                    پردازش موازی
+                                </p>
+                                <p className={'black-util-text-background'} ref={left2Ref} style={left2InView? afterStyle : beforeStyle}>
+                                    پردازش موازی
+                                </p>
+                            </div>
                             <div style={{width: '2vw'}}/>
                             <Left2 className={'util-icon'}/>
                         </div>
@@ -67,9 +107,14 @@ const TechnicalUtils = () => {
                     <div className={'util-group left-to-right'} id={'right-2'}>
                         <Deep id={'deep'}/>
                         <div className={'util-row left-to-right-row2'}>
-                            <p className={'black-util-text'}>
-                                یادگیری عمیق
-                            </p>
+                            <div className={'title-stack-utils'}>
+                                <p className={'black-util-text'} style={right2InView? afterStyleText : beforeStyleText}>
+                                    یادگیری عمیق
+                                </p>
+                                <p className={'black-util-text-background'} ref={right2Ref} style={right2InView? afterStyle : beforeStyle}>
+                                    یادگیری عمیق
+                                </p>
+                            </div>
                             <div style={{width: '2vw'}}/>
                             <Right2 className={'util-icon'}/>
                         </div>

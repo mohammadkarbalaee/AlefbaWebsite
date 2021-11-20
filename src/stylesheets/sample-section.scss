@@ -36,7 +36,10 @@ p { margin: 0.8vw}
 .white-title-sample{
   color: white;
   margin-right: 1.5vw;
+  transition: 1s ease-in-out;
   font-weight: bold;
+  background-color: transparent;
+  z-index: 1;
   font-size: 1.3vw;
   font-family: iran-yekan, serif;
 }
@@ -45,6 +48,9 @@ p { margin: 0.8vw}
 .description-sample{
   color: white;
   direction: rtl;
+  z-index: 1;
+  transition: 1s ease-in-out;
+  background-color: transparent;
   font-family: iran-yekan, serif;
   font-size: 1.1vw;
 }
@@ -99,7 +105,7 @@ p { margin: 0.8vw}
   width: 5vw;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   #active-orange-title{
     background-color: #FF6200;
     color: black;
@@ -111,7 +117,7 @@ p { margin: 0.8vw}
 }
 
 
-@media screen  and (max-width: 600px){
+@media screen  and (max-width: 500px){
   #sample-title{
     font-size: 5.3vw;
   }

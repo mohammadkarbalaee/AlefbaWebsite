@@ -38,7 +38,7 @@
   height: 25vh;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
   #sample-footer-space{
     height: 160vh;
   }
@@ -63,4 +63,8 @@
 
 .alefba{
   overflow-x: hidden;
+}
+
+*{
+  transition: 1s;
 }

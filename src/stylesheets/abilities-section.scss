@@ -55,8 +55,10 @@
   direction: rtl;
   color: black;
   transition: 2s;
-  transform: scaleX(1);
-  background: linear-gradient(to left,#FF6200 0%,transparent 100%);
+  transform: scaleX(0);
+  background-color: #FF6200;
+  transform-origin: right;
+  left: 0;
   font-family: iran-yekan, serif;
   font-style: normal;
   font-weight: bold;

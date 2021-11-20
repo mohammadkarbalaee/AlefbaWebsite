@@ -15,10 +15,12 @@ const AbilitiesSection = () => {
     };
 
     const beforeStyle = {
-        backgroundColor: 'transparent',
+        opacity: 0,
+        transform: 'scaleX(0)'
     };
     const afterStyle = {
-        backgroundColor: '#FF6200',
+        opacity: 1,
+        transform: 'scaleX(1)'
     };
 
     const [right1Ref,right1InView] = useInView(observerOptions);

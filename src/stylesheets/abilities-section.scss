@@ -54,7 +54,9 @@
 .black-text{
   direction: rtl;
   color: black;
-  background-color: #FF6200;
+  transition: 2s;
+  transform: scaleX(1);
+  background: linear-gradient(to left,#FF6200 0%,transparent 100%);
   font-family: iran-yekan, serif;
   font-style: normal;
   font-weight: bold;

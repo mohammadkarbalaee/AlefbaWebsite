@@ -9,10 +9,24 @@ import {ReactComponent as Left3} from "../assets/images/abilities/left-3.svg";
 import { useInView } from 'react-intersection-observer';
 
 const AbilitiesSection = () => {
+
     const observerOptions = {
-        threshold: 0.2,
+        delay: 500
     };
-    const [sideRef,inView] = useInView(observerOptions);
+
+    const beforeStyle = {
+        backgroundColor: 'transparent',
+    };
+    const afterStyle = {
+        backgroundColor: '#FF6200',
+    };
+
+    const [right1Ref,right1InView] = useInView(observerOptions);
+    const [right2Ref,right2InView] = useInView(observerOptions);
+    const [right3Ref,right3InView] = useInView(observerOptions);
+    const [left1Ref,left1InView] = useInView(observerOptions);
+    const [left2Ref,left2InView] = useInView(observerOptions);
+    const [left3Ref,left3InView] = useInView(observerOptions);
 
     // style={inView? {background: 'white'} : {}}
 
@@ -30,7 +44,7 @@ const AbilitiesSection = () => {
                     <div style={{height: '8vw'}}/>
                     <div className={'ability-group'} id={'left-1'}>
                         <Left1 className={'ability-icon'}/>
-                        <p className={'black-text'}>
+                        <p className={'black-text'}  ref={left1Ref} style={left1InView? afterStyle : beforeStyle}>
                             خواندن متون فارسی و انگلیسی
                         </p>
                         <p className={'white-text'}>
@@ -39,7 +53,7 @@ const AbilitiesSection = () => {
                     </div>
                     <div className={'ability-group'} id={'left-2'}>
                         <Left2 className={'ability-icon'}/>
-                        <p className={'black-text'}>
+                        <p className={'black-text'}  ref={left2Ref} style={left2InView? afterStyle : beforeStyle}>
                             اصلاح تصویر
                         </p>
                         <p className={'white-text'}>
@@ -48,7 +62,7 @@ const AbilitiesSection = () => {
                     </div>
                     <div className={'ability-group'} id={'left-3'}>
                         <Left3 className={'ability-icon'}/>
-                        <p className={'black-text'}>
+                        <p className={'black-text'} ref={left3Ref} style={left3InView? afterStyle : beforeStyle}>
                             خواندن حرکت های حروف
                         </p>
                         <p className={'white-text'}>
@@ -59,7 +73,7 @@ const AbilitiesSection = () => {
                 <div id={'right'}>
                     <div className={'ability-group'} id={'right-1'}>
                         <Right1 className={'ability-icon'}/>
-                        <p className={'black-text'}>
+                        <p className={'black-text'} ref={right1Ref} style={right1InView? afterStyle : beforeStyle}>
                             خواندن قلم های گوناگون
                         </p>
                         <p className={'white-text'}>
@@ -68,7 +82,7 @@ const AbilitiesSection = () => {
                     </div>
                     <div className={'ability-group'} id={'right-2'}>
                         <Right2 className={'ability-icon'}/>
-                        <p className={'black-text'}>
+                        <p className={'black-text'} ref={right2Ref} style={right2InView? afterStyle : beforeStyle}>
                             حفظ ساختار سند
                         </p>
                         <p className={'white-text'}>
@@ -77,7 +91,7 @@ const AbilitiesSection = () => {
                     </div>
                     <div className={'ability-group'} id={'right-3'}>
                         <Right3 className={'ability-icon'}/>
-                        <p className={'black-text'}>
+                        <p className={'black-text'} ref={right3Ref} style={right3InView? afterStyle : beforeStyle}>
                             اطمینان از درستی
                         </p>
                         <p className={'white-text'}>

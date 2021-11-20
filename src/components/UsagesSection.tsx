@@ -3,6 +3,7 @@ import BusinessImage from '../assets/images/usages/businesses.png';
 import OrganizationsImage from '../assets/images/usages/organizations.png';
 import LibrariesImage from '../assets/images/usages/libraries.png';
 import { useInView } from 'react-intersection-observer';
+import {isMobile} from 'react-device-detect';
 
 const UsagesSection = () => {
 
@@ -10,9 +11,7 @@ const UsagesSection = () => {
         delay: 1000
     };
 
-    const beforeFade = {
-        opacity: 0
-    };
+    const beforeFade = isMobile? {opacity: 1}: {opacity: 0};
 
     const afterFade = {
         opacity: 1

@@ -11,15 +11,13 @@ import { useInView } from 'react-intersection-observer';
 const AbilitiesSection = () => {
 
     const observerOptions = {
-        delay: 500
+        delay: 1000
     };
 
     const beforeStyle = {
-        opacity: 0,
         transform: 'scaleX(0)'
     };
     const afterStyle = {
-        opacity: 1,
         transform: 'scaleX(1)'
     };
 
@@ -29,8 +27,6 @@ const AbilitiesSection = () => {
     const [left1Ref,left1InView] = useInView(observerOptions);
     const [left2Ref,left2InView] = useInView(observerOptions);
     const [left3Ref,left3InView] = useInView(observerOptions);
-
-    // style={inView? {background: 'white'} : {}}
 
     return(
         <div id={'abilities'}>
@@ -46,9 +42,14 @@ const AbilitiesSection = () => {
                     <div style={{height: '8vw'}}/>
                     <div className={'ability-group'} id={'left-1'}>
                         <Left1 className={'ability-icon'}/>
-                        <p className={'black-text'}  ref={left1Ref} style={left1InView? afterStyle : beforeStyle}>
-                            خواندن متون فارسی و انگلیسی
-                        </p>
+                        <div className={'title-stack'}>
+                            <p className={'black-text'}>
+                                خواندن متون فارسی و انگلیسی
+                            </p>
+                            <p className={'black-text-background'}  ref={left1Ref} style={left1InView? afterStyle : beforeStyle}>
+                                خواندن متون فارسی و انگلیسی
+                            </p>
+                        </div>
                         <p className={'white-text'}>
                             خواندن نویسه های فارسی، انگلیسی و البته زبان های مشابه مثل عربی و دری، همه در کنار هم در یک تصویر
                         </p>

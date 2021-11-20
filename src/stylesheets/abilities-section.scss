@@ -54,15 +54,39 @@
 .black-text{
   direction: rtl;
   color: black;
-  transition: 2s;
-  transform: scaleX(0);
-  background-color: #FF6200;
+  transition: 2s ease-in-out;
+  transform: scaleX(1);
+  background-color: transparent;
   transform-origin: right;
   left: 0;
   font-family: iran-yekan, serif;
   font-style: normal;
   font-weight: bold;
+  z-index: 1;
   font-size: 1.1vw;
+}
+
+.black-text-background{
+  direction: rtl;
+  color: transparent;
+  transition: 2s;
+  transform: scaleX(1);
+  background-color: #FF6200;
+  transform-origin: right;
+  z-index: -1;
+  font-family: iran-yekan, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title-stack{
+  display: flex;
+  position: relative;
+  flex-direction: column;
 }
 
 .white-text{

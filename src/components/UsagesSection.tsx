@@ -13,6 +13,7 @@ const UsagesSection = () => {
     const beforeFade = {
         opacity: 0
     };
+
     const afterFade = {
         opacity: 1
     };

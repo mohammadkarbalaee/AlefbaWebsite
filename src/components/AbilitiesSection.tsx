@@ -56,18 +56,28 @@ const AbilitiesSection = () => {
                     </div>
                     <div className={'ability-group'} id={'left-2'}>
                         <Left2 className={'ability-icon'}/>
-                        <p className={'black-text'}  ref={left2Ref} style={left2InView? afterStyle : beforeStyle}>
-                            اصلاح تصویر
-                        </p>
+                        <div className={'title-stack'}>
+                            <p className={'black-text'}>
+                                اصلاح تصویر
+                            </p>
+                            <p className={'black-text-background'}  ref={left2Ref} style={left2InView? afterStyle : beforeStyle}>
+                                اصلاح تصویر
+                            </p>
+                        </div>
                         <p className={'white-text'}>
                             اصلاح نویز، چرخش و سایه تصویر برای دقیق‌تر خواندن متن
                         </p>
                     </div>
                     <div className={'ability-group'} id={'left-3'}>
                         <Left3 className={'ability-icon'}/>
-                        <p className={'black-text'} ref={left3Ref} style={left3InView? afterStyle : beforeStyle}>
-                            خواندن حرکت های حروف
-                        </p>
+                        <div className={'title-stack'}>
+                            <p className={'black-text'}>
+                                خواندن حرکت های حروف
+                            </p>
+                            <p className={'black-text-background'} ref={left3Ref} style={left3InView? afterStyle : beforeStyle}>
+                                خواندن حرکت های حروف
+                            </p>
+                        </div>
                         <p className={'white-text'}>
                             خواندن نوشته‌ها و حذف حرکت‌ها از عبارت های فارسی یا عربی مثل آیات قرآن کریم
                         </p>
@@ -76,27 +86,42 @@ const AbilitiesSection = () => {
                 <div id={'right'}>
                     <div className={'ability-group'} id={'right-1'}>
                         <Right1 className={'ability-icon'}/>
-                        <p className={'black-text'} ref={right1Ref} style={right1InView? afterStyle : beforeStyle}>
-                            خواندن قلم های گوناگون
-                        </p>
+                        <div className={'title-stack'}>
+                            <p className={'black-text'}>
+                                خواندن قلم های گوناگون
+                            </p>
+                            <p className={'black-text-background'} ref={right1Ref} style={right1InView? afterStyle : beforeStyle}>
+                                خواندن قلم های گوناگون
+                            </p>
+                        </div>
                         <p className={'white-text'}>
                             خواندن متون نوشته‌شده با قلم‌های مختلف، در اندازه‌های متفاوت، مثل عنوان، متن یا پاورقی‌ها
                         </p>
                     </div>
                     <div className={'ability-group'} id={'right-2'}>
                         <Right2 className={'ability-icon'}/>
-                        <p className={'black-text'} ref={right2Ref} style={right2InView? afterStyle : beforeStyle}>
-                            حفظ ساختار سند
-                        </p>
+                        <div className={'title-stack'}>
+                            <p className={'black-text'}>
+                                حفظ ساختار سند
+                            </p>
+                            <p className={'black-text-background'} ref={right2Ref} style={right2InView? afterStyle : beforeStyle}>
+                                حفظ ساختار سند
+                            </p>
+                        </div>
                         <p className={'white-text'}>
                             چیدن عنوان، متن، تصویر و جدول در صفحه نتیجه، برای حفظ ساختار سند مورد تحلیل
                         </p>
                     </div>
                     <div className={'ability-group'} id={'right-3'}>
                         <Right3 className={'ability-icon'}/>
-                        <p className={'black-text'} ref={right3Ref} style={right3InView? afterStyle : beforeStyle}>
-                            اطمینان از درستی
-                        </p>
+                        <div className={'title-stack'}>
+                            <p className={'black-text'}>
+                                اطمینان از درستی
+                            </p>
+                            <p className={'black-text-background'} ref={right3Ref} style={right3InView? afterStyle : beforeStyle}>
+                                اطمینان از درستی
+                            </p>
+                        </div>
                         <p className={'white-text'}>
                             مشخص کردن بخش‌هایی از نوشته که با تردید خوانده شده‌اند برای بازنگری توسط انسان
                         </p>

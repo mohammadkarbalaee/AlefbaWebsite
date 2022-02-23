@@ -2,7 +2,7 @@
   "files": {
     "main.css": "/AlefbaWebsite/static/css/main.b9c2eeaa.chunk.css",
     "main.js": "/AlefbaWebsite/static/js/main.f672f450.chunk.js",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.3a33cd37.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.64c2aa98.js",
     "static/js/2.f5e5dd8b.chunk.js": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js",
     "static/css/3.29584896.chunk.css": "/AlefbaWebsite/static/css/3.29584896.chunk.css",
     "static/js/3.2c2be38e.chunk.js": "/AlefbaWebsite/static/js/3.2c2be38e.chunk.js",
@@ -15,7 +15,7 @@
     "static/css/8.1641517e.chunk.css": "/AlefbaWebsite/static/css/8.1641517e.chunk.css",
     "static/js/8.92ee506b.chunk.js": "/AlefbaWebsite/static/js/8.92ee506b.chunk.js",
     "static/css/9.48846efd.chunk.css": "/AlefbaWebsite/static/css/9.48846efd.chunk.css",
-    "static/js/9.dde4955c.chunk.js": "/AlefbaWebsite/static/js/9.dde4955c.chunk.js",
+    "static/js/9.2767aef9.chunk.js": "/AlefbaWebsite/static/js/9.2767aef9.chunk.js",
     "static/css/10.fd101f05.chunk.css": "/AlefbaWebsite/static/css/10.fd101f05.chunk.css",
     "static/js/10.ff23b4ed.chunk.js": "/AlefbaWebsite/static/js/10.ff23b4ed.chunk.js",
     "static/js/11.3d858d35.chunk.js": "/AlefbaWebsite/static/js/11.3d858d35.chunk.js",
@@ -23,8 +23,8 @@
     "static/js/2.f5e5dd8b.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js.LICENSE.txt",
     "static/js/7.74ea7388.chunk.js.LICENSE.txt": "/AlefbaWebsite/static/js/7.74ea7388.chunk.js.LICENSE.txt",
     "static/media/abilities-section.scss": "/AlefbaWebsite/static/media/IRANYekan.b916444e.ttf",
-    "static/media/Sher.1bea8683.svg": "/AlefbaWebsite/static/media/Sher.1bea8683.svg",
-    "static/media/TarazNameh.5aa1f5f0.svg": "/AlefbaWebsite/static/media/TarazNameh.5aa1f5f0.svg",
+    "static/media/Sher.5c69d7bd.svg": "/AlefbaWebsite/static/media/Sher.5c69d7bd.svg",
+    "static/media/TarazNameh.2f98b0d7.svg": "/AlefbaWebsite/static/media/TarazNameh.2f98b0d7.svg",
     "static/media/accuracy-mobile.e737a534.svg": "/AlefbaWebsite/static/media/accuracy-mobile.e737a534.svg",
     "static/media/businesses.f577862c.png": "/AlefbaWebsite/static/media/businesses.f577862c.png",
     "static/media/deep-mobile.55095504.svg": "/AlefbaWebsite/static/media/deep-mobile.55095504.svg",
@@ -56,7 +56,7 @@
     "static/media/side.6df44b76.svg": "/AlefbaWebsite/static/media/side.6df44b76.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a33cd37.js",
+    "static/js/runtime-main.64c2aa98.js",
     "static/js/2.f5e5dd8b.chunk.js",
     "static/css/main.b9c2eeaa.chunk.css",
     "static/js/main.f672f450.chunk.js"

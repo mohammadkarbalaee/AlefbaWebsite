@@ -5,7 +5,7 @@ export const TypingAnimation = {
     visible: {
         opacity: 1,
         transition: {
-            duration: 3
+            duration: 3,
         }
     },
 }
@@ -17,7 +17,7 @@ export const ImageAnimation = {
     visible: {
         opacity: 0,
         transition: {
-            duration: 3
+            duration: 1,
         }
     },
 }

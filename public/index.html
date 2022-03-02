@@ -24,6 +24,21 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>الفبا</title>
+
+    <style>
+      @keyframes in {
+        0%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
+        }
+      }
+      #root {
+        animation-duration: 5s;
+        animation-name: in;
+      }
+    </style>
   </head>
   <body style="background-color:black">
     <noscript>You need to enable JavaScript to run this app.</noscript>

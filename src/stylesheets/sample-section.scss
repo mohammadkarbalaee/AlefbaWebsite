@@ -70,8 +70,9 @@ p { margin: 0.8vw}
 }
 
 .image-sample {
-  width: 30vw;
-  height: 40vh;
+  width: 45vw;
+  z-index: 10;
+  height: 55vh;
 }
 
 #sample-title{
@@ -93,12 +94,25 @@ p { margin: 0.8vw}
 
 #orange-border{
   position: absolute;
-  margin-bottom: 17vw;
-  margin-right: 16vw;
+  margin-bottom: 24vw;
+  margin-right: -1vw;
 }
 
 #orange-border-main{
   width: 5vw;
+}
+
+.sample-image {
+  position: absolute;
+  width: 45vw;
+  height: 55vh;
+}
+
+.sample-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 500px) {

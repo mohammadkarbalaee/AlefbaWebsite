@@ -1,0 +1,14 @@
+<svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="8.5" width="28" height="28" rx="3" stroke="#FF6200" stroke-width="2"/>
+<rect x="16" y="16.5" width="12" height="12" rx="2" fill="#FF6200"/>
+<path d="M13.0005 7.5V3" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 42V37.5" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 7.5V3" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22 42V37.5" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 7.5V3" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31 42V37.5" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37 16.5H43" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 16.5H1" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37 28.5H43" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 28.5H1" stroke="#FF6200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

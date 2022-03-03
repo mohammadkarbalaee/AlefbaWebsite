@@ -12,7 +12,10 @@ import taraznameh from '../assets/images/samples/TarazNameh.svg';
 import {ReactComponent as Dot} from "../assets/images/samples/dot.svg";
 import {ReactComponent as Polygon} from "../assets/images/samples/polygon.svg";
 import '../stylesheets/sample-section.scss';
+import {motion} from 'framer-motion';
+
 import {Component} from "react";
+import {ImageAnimation} from "../animations/typingAnimation";
 
 enum Sample {
     KartMelli,
@@ -77,8 +80,12 @@ class SampleSection extends Component {
                 <div id={'sample-section'}>
                     <div className={'sample-container'}>
                         ({whichSample()})
-                        <img
+                        <motion.img
+                            variants={ImageAnimation}
+                            initial={"hidden"}
+                            animate={"visible"}
                             src={whichImage()}
+                            key={this.state.chosenSample}
                             alt={''}
                             className={'sample-image'}
                         />

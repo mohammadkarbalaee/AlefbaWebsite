@@ -16,23 +16,16 @@ const KartMelli = (props) => (
             initial={"hidden"}
             animate={"visible"}
         >
-            <g mask="url(#a)">
-                <path fill="url(#b)" d="M-2-1h433v272H-2z" />
-            </g>
-            <path fill="#E5E5E5" d="M0 0h430v270H0z" />
-            <path fill="#000" d="M-142-114h1629v1208H-142z" />
-            <mask
-                id="a"
-                style={{ maskType: "alpha" }}
-                maskUnits="userSpaceOnUse"
-                x={0}
-                y={0}
-                width={430}
-                height={270}
-            >
-                <rect width={430} height={270} rx={20} fill="#C4C4C4" />
-            </mask>
-            <rect x={0.5} y={0.5} width={429} height={269} rx={19.5} stroke="#FF6200" />
+            <rect
+                x={0.5}
+                y={0.5}
+                width={429}
+                height={269}
+                rx={19.5}
+                fill="#FF6200"
+                fillOpacity={0.1}
+                stroke="#FF6200"
+            />
             <rect x={37.5} y={85.5} width={99} height={99} rx={1.5} stroke="#fff" />
             <circle cx={74.736} cy={118.962} r={6.104} stroke="#fff" />
             <path

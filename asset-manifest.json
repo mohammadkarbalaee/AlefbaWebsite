@@ -2,7 +2,7 @@
   "files": {
     "main.css": "/AlefbaWebsite/static/css/main.b9c2eeaa.chunk.css",
     "main.js": "/AlefbaWebsite/static/js/main.71cc66be.chunk.js",
-    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.eb3840fe.js",
+    "runtime-main.js": "/AlefbaWebsite/static/js/runtime-main.b0a0e335.js",
     "static/js/2.f5e5dd8b.chunk.js": "/AlefbaWebsite/static/js/2.f5e5dd8b.chunk.js",
     "static/js/3.9624a2f7.chunk.js": "/AlefbaWebsite/static/js/3.9624a2f7.chunk.js",
     "static/css/4.29584896.chunk.css": "/AlefbaWebsite/static/css/4.29584896.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/8.1641517e.chunk.css": "/AlefbaWebsite/static/css/8.1641517e.chunk.css",
     "static/js/8.9cab95de.chunk.js": "/AlefbaWebsite/static/js/8.9cab95de.chunk.js",
     "static/css/9.55810d4d.chunk.css": "/AlefbaWebsite/static/css/9.55810d4d.chunk.css",
-    "static/js/9.f98a3ee1.chunk.js": "/AlefbaWebsite/static/js/9.f98a3ee1.chunk.js",
+    "static/js/9.c40f8064.chunk.js": "/AlefbaWebsite/static/js/9.c40f8064.chunk.js",
     "static/css/10.fd101f05.chunk.css": "/AlefbaWebsite/static/css/10.fd101f05.chunk.css",
     "static/js/10.2eeb78e5.chunk.js": "/AlefbaWebsite/static/js/10.2eeb78e5.chunk.js",
     "static/js/11.4bbbcdf2.chunk.js": "/AlefbaWebsite/static/js/11.4bbbcdf2.chunk.js",
@@ -56,7 +56,7 @@
     "static/media/side.6df44b76.svg": "/AlefbaWebsite/static/media/side.6df44b76.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb3840fe.js",
+    "static/js/runtime-main.b0a0e335.js",
     "static/js/2.f5e5dd8b.chunk.js",
     "static/css/main.b9c2eeaa.chunk.css",
     "static/js/main.71cc66be.chunk.js"
